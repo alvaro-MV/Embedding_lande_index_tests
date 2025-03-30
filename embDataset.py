@@ -15,6 +15,15 @@ class embDataset(ABC):
 	def transform_dataset(self, transform_func):
 		pass
 
+	@abstractmethod
+	def get_df_from_dataset(self):
+		pass
+	
+	@abstractmethod
+	def get_df(self):
+		pass
+
+
 class HFDataset(embDataset):
 	def __init__(self, path):
 		self.path = path
@@ -33,29 +42,39 @@ class HFDataset(embDataset):
 	def transform_df(self, transform_func):
 		self.df = transform_func(self.df)
 	
-	def get_sample(self, roleplay_df, k = 5):
+	def	get_df(self):
+		return (self.df)
+
+	def get_sample(self, k = 5):
 		return self.df.iloc[random.choices(
-			range(0, roleplay_df.index.stop -1), k = k)]
+			range(0, self.df.index.stop -1), k = k)]
 
 
 class KaggleDataset(embDataset):
 	def __init__(self, path):
 		self.path = path
+		self.dataset = None
 		self.df = None
 
 	def load_dataset(self):
-		path = kagglehub.dataset_download(self.path)
-
-		print("Path to dataset files:", path)
-		csv_file=os.listdir(path)
-		print(csv_file[0])
-
-		csv_file_path = os.path.join(path, csv_file[0])
-		self.df=pd.read_csv(csv_file_path)
+		self.dataset = kagglehub.dataset_download(self.path)
+		print("Path to dataset files:", self.dataset)
 	
 	def transform_dataset(self, transform_func):
-		self.df = transform_func(self.fd)
+		self.dataset = transform_func(self.dataset)
 
-	def get_sample(self, roleplay_df, k = 5):
+	def get_df_from_dataset(self):
+		csv_file=os.listdir(self.dataset)
+		print(csv_file[0])
+
+		csv_file_path = os.path.join(self.dataset, csv_file[0])
+		self.df=pd.read_csv(csv_file_path)
+		self.df = pd.DataFrame(self.hf_dataset)
+	
+	def	get_df(self):
+		return (self.df)
+
+	def get_sample(self, k = 5):
 		return self.df.iloc[random.choices(
-			range(0, roleplay_df.index.stop -1), k = k)]
+			range(0, self.df.index.stop -1), k = k)]
+

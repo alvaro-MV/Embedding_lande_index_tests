@@ -2,15 +2,6 @@ import openai
 import random
 from torch.nn import functional as F
 
-def generate_embeddings(element, model = 'text-embedding-3-small'):
-    embedding = openai.embeddings.create(
-        input= element,
-        model=model,
-        encoding_format="float",
-
-        ).data[0].embedding
-    return embedding
-
 def lande_index(label, el):
     vector = F.cosine_similarity(label, el)
     soft_vector = F.softmax(vector, 0)
