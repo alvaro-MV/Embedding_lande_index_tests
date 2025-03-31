@@ -37,6 +37,7 @@ def run(embeddings_el, df, updating, update_fn, client, steps = 10):
       i += 1
   return lande_measure
 
+
 def run_conversation(embeddings_el, generics, label, conversation_rounds = 10):
     client = Chat()
     lande_convers = run(embeddings_el, generics, label, 

@@ -14,6 +14,17 @@ def lande_index(label, el):
     s_div = 1 - s_div
     return (N/(N-1))*s_div
 
+def lande_intra_index(embedding):
+    soft_vector = F.softmax(embedding, 0)
+    # print(f'the soft vector is: {soft_vector}\n')
+    N = len(soft_vector)
+    s_div = 0
+    for i in range(0, N-1):
+        s_div += (soft_vector[i]) ** 2
+    s_div = 1 - s_div
+    return (N/(N-1))*s_div
+
+
 class Chat:
     def __init__(self):
         self.client = openai.OpenAI(api_key=os.environ["OPENAI_API_KEY"])
