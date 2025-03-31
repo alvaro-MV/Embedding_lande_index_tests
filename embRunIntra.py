@@ -1,7 +1,5 @@
 import embRun
-import torch
 import embUtils as utils
-import embGet
 
 def run_intra(embeddings_el, df, updating, update_fn, client, steps = 10):
   incrementText = ""
@@ -9,8 +7,6 @@ def run_intra(embeddings_el, df, updating, update_fn, client, steps = 10):
   i = 0
   while i < steps:
       incrementText = update_fn(client, incrementText, df, updating, i)    
-    #   tensor = torch.Tensor(
-    #      embGet.generate_embeddings(incrementText)).unsqueeze(0)
       la = utils.lande_intra_index(embeddings_el)
       print(la)
       lande_measure.append(la)

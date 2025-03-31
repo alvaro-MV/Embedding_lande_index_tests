@@ -4,7 +4,9 @@ from roleplay import roleplay
 from getpass import getpass
 from expositive import expositive
 
-os.environ["OPENAI_API_KEY"] = getpass("api key: ")
+if "OPENAI_API_KEY" not in os.environ:
+	os.environ["OPENAI_API_KEY"] = getpass("api key: ")
+
 parser = argparse.ArgumentParser(description = 'Test for probing lande index as a proxy for information flow')
  
 parser.add_argument('-t', '--task',  dest ='task', 
@@ -17,4 +19,6 @@ print(args.task)
 if (args.task == 'conversation'):
 	result = roleplay()
 elif (args.task == 'expositive'):
-	result = expositive()
+	result = expositive(0)
+elif (args.task == 'expositive_intra'):
+	result = expositive(1)

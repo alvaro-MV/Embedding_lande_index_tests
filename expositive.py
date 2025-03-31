@@ -2,6 +2,7 @@ import pandas as pd
 import embDataset
 import embGet
 from embRun import run_on_expositive_texts
+from embRunIntra import run_on_expositive_texts_intra
 
 
 # Función para separar los abstract en chunnks, 
@@ -11,7 +12,7 @@ def split_into_chunks(text, n_chunks=8):
     chunk_len = len(text) // n_chunks
     return [text[i * chunk_len : (i + 1) * chunk_len] for i in range(n_chunks - 1)] + [text[(n_chunks - 1) * chunk_len:]]
 
-def expositive():
+def expositive(intra):
 	expositive = embDataset.KaggleDataset(
 		"nechbamohammed/research-papers-dataset")
 	expositive.load_dataset()
@@ -22,7 +23,10 @@ def expositive():
 
 	title_embeddings = embGet.get_embedding_sample(random_sample, 'title')
 	abstract_chunks = random_sample['abstract_chunks'].iloc[1]
-	print(f"title: {title_embeddings},   chunks: {abstract_chunks}\n")
-	lande_abstracts = run_on_expositive_texts(abstract_chunks, title_embeddings, 8)
+	print(f"\ttitle: \n{title_embeddings}\n\tchunks: \n{abstract_chunks}\n")
+	if (intra == 1):
+		lande_abstracts = run_on_expositive_texts_intra(abstract_chunks, title_embeddings, 8)
+	else:
+		lande_abstracts = run_on_expositive_texts(abstract_chunks, title_embeddings, 8)
 	print(f"lande abstract: {lande_abstracts}")
 	return (lande_abstracts)
