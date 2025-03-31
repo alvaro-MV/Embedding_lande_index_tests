@@ -2,27 +2,10 @@ import embDataset
 import embUtils as utils
 from embRun import run_conversation
 
-## Esto realmente iría en main.
-# os.environ["OPENAI_API_KEY"] = getpass("api key: ")
-# client = openai.OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-## Esto realmente iría en main.
-
-
 # Funcion que se le pasa a método
 # trasnsform_dataset
 def select_train_set(dataset):
 	return dataset['train']
-
-roleplay = embDataset.HFDataset("hieunguyenminh/roleplay")
-roleplay.load_dataset()
-generics = embDataset.HFDataset("generics_kb")
-generics.load_dataset()
-
-roleplay.transform_dataset(select_train_set)
-generics.transform_dataset(select_train_set)
-
-roleplay.get_df_from_dataset()
-generics.get_df_from_dataset()
 
 ########## Llevar a cabo la conversación #############
 
@@ -33,7 +16,6 @@ def run_experiment_1(roleplay, generics, k_values, conversation_rounds_values):
     results = []
     for k in k_values:
         roleplay_sample = generics.get_sample()
-        roleplay_sample = roleplay.get_roleplay_sample(k)
         label = roleplay_sample.iloc[0,:]['text']
         embeddings_el = utils.get_embedding_sample(roleplay_sample, roleplay.get_df())
         for rounds in conversation_rounds_values:
@@ -50,4 +32,17 @@ def run_experiment_1(roleplay, generics, k_values, conversation_rounds_values):
             print(f"role_batch_size: {k}\t round: {rounds}")
     return results
 
-resultado = run_experiment_1(roleplay, generics, role_batch_size, round_values)
+ 
+##  Función que se llama desde el archivo main
+def roleplay():
+    roleplay = embDataset.HFDataset("hieunguyenminh/roleplay")
+    roleplay.load_dataset()
+    generics = embDataset.HFDataset("generics_kb")
+    generics.load_dataset()
+    roleplay.transform_dataset(select_train_set)
+    generics.transform_dataset(select_train_set)
+
+    roleplay.get_df_from_dataset()
+    generics.get_df_from_dataset()
+    resultado = run_experiment_1(roleplay, generics, role_batch_size, round_values)
+    return resultado

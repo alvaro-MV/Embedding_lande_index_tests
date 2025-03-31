@@ -65,11 +65,9 @@ class KaggleDataset(embDataset):
 
 	def get_df_from_dataset(self):
 		csv_file=os.listdir(self.dataset)
-		print(csv_file[0])
-
 		csv_file_path = os.path.join(self.dataset, csv_file[0])
-		self.df=pd.read_csv(csv_file_path)
-		self.df = pd.DataFrame(self.hf_dataset)
+		self.df = pd.read_csv(csv_file_path)
+		print(self.df.head(10))
 	
 	def	get_df(self):
 		return (self.df)
