@@ -1,12 +1,17 @@
 import random
 import openai
 import os
+import numpy as np
 from torch.nn import functional as F
+
+def softmax(x):
+    x = np.array(x)
+    e_x = np.exp(x - np.max(x))  # mayor estabilidad numérica
+    return e_x / e_x.sum()
 
 def lande_index(label, el):
     vector = F.cosine_similarity(label, el)
     soft_vector = F.softmax(vector, 0)
-    # print(f'the soft vector is: {soft_vector}\n')
     N = len(soft_vector)
     s_div = 0
     for i in range(0, N-1):
@@ -15,15 +20,24 @@ def lande_index(label, el):
     return (N/(N-1))*s_div
 
 def lande_intra_index(embedding):
-    soft_vector = F.softmax(embedding, 0)
-    # print(f'the soft vector is: {soft_vector}\n')
+    soft_vector = softmax(embedding)
+    D = np.sum(soft_vector ** 2)  # Índice Simpson
     N = len(soft_vector)
-    s_div = 0
-    for i in range(0, N-1):
-        s_div += (soft_vector[i]) ** 2
-    s_div = 1 - s_div
-    return (N/(N-1))*s_div
+    return (N / (N - 1)) * (1 - D)
 
+def separar_en_parrafos(ruta_fichero):
+    parrafos = []
+    with open(ruta_fichero, 'r', encoding='utf-8') as f:
+        contenido = f.read()
+    
+    # Separar por líneas en blanco (una o más)
+    bloques = contenido.strip().split('\n\n')
+    for bloque in bloques:
+        parrafo = bloque.strip().replace('\n', ' ')
+        if parrafo:  # evitar párrafos vacíos
+            parrafos.append(parrafo)
+    
+    return parrafos
 
 class Chat:
     def __init__(self):
@@ -82,3 +96,4 @@ class Chat:
 def extractBaselineAnswer(df_base):
   random_element = df_base.iloc[random.choices(range(0, df_base.index.stop -1), k=1)]
   return list(random_element.generic_sentence.values)[0]
+
