@@ -1,5 +1,7 @@
 import embDataset
+from embDataset import HFDataset
 import embUtils as utils
+import embGet
 from embRun import run_conversation
 
 # Funcion que se le pasa a método
@@ -9,18 +11,21 @@ def select_train_set(dataset):
 
 ########## Llevar a cabo la conversación #############
 
-round_values = [5, 10, 20]
-role_batch_size = [3, 8, 15, 20]
+# round_values = [5, 10, 20]
+# role_batch_size = [3, 8, 15, 20]
+round_values = [10]
+role_batch_size = [8, 15]
 
-def run_experiment_1(roleplay, generics, k_values, conversation_rounds_values):
+def run_experiment_1(roleplay : HFDataset, generics, k_values, conversation_rounds_values):
     results = []
     for k in k_values:
-        roleplay_sample = generics.get_sample()
+        roleplay_sample =roleplay.get_sample(k)
+        print(roleplay_sample)
         label = roleplay_sample.iloc[0,:]['text']
-        embeddings_el = utils.get_embedding_sample(roleplay_sample, roleplay.get_df())
+        embeddings_el = embGet.get_embedding_sample(roleplay_sample, 'text')
         for rounds in conversation_rounds_values:
             lande_conversation, lande_baseline = run_conversation(embeddings_el, generics,
-                                                                  label, steps=rounds)
+                                                                  label, rounds)
 
             result = {
                 'k': k,
@@ -44,5 +49,6 @@ def roleplay():
 
     roleplay.get_df_from_dataset()
     generics.get_df_from_dataset()
+    print(roleplay.get_df)
     resultado = run_experiment_1(roleplay, generics, role_batch_size, round_values)
     return resultado

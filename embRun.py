@@ -1,6 +1,7 @@
 import torch
 import embUtils as utils
 from embUtils import Chat
+from embDataset import HFDataset
 import embGet
 
 
@@ -38,16 +39,13 @@ def run(embeddings_el, df, updating, update_fn, client, steps = 10):
   return lande_measure
 
 
-def run_conversation(embeddings_el, generics, label, conversation_rounds = 10):
+def run_conversation(embeddings_el, generics : HFDataset, label, conversation_rounds = 10):
     client = Chat()
-    lande_convers = run(embeddings_el, generics, label, 
+    lande_convers = run(embeddings_el, generics.get_df(), label, 
                         update_roleplay_answer, client, conversation_rounds)
-    lande_base = run(embeddings_el, generics, label,
+    lande_base = run(embeddings_el, generics.get_df(), label,
                         update_roleplay_baseline, client, conversation_rounds)
     return lande_convers, lande_base
-
-def run_on_expositive_texts(abstract_chunks, title_embs, n_batches = 8):
-    return run(title_embs, None, abstract_chunks, update_expo_abstract, None, n_batches)
 
 #   Abstract = ""
 #   i = 0

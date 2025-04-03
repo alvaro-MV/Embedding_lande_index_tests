@@ -1,6 +1,7 @@
 import random
 import openai
 import os
+import torch
 import numpy as np
 from torch.nn import functional as F
 
@@ -96,4 +97,3 @@ class Chat:
 def extractBaselineAnswer(df_base):
   random_element = df_base.iloc[random.choices(range(0, df_base.index.stop -1), k=1)]
   return list(random_element.generic_sentence.values)[0]
-
