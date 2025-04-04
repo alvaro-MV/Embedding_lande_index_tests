@@ -13,8 +13,9 @@ def select_train_set(dataset):
 
 # round_values = [5, 10, 20]
 # role_batch_size = [3, 8, 15, 20]
-round_values = [10]
-role_batch_size = [8, 15]
+
+round_values = [3]
+role_batch_size = [3]
 
 def run_experiment_1(roleplay : HFDataset, generics, k_values, conversation_rounds_values):
     results = []
@@ -24,13 +25,14 @@ def run_experiment_1(roleplay : HFDataset, generics, k_values, conversation_roun
         label = roleplay_sample.iloc[0,:]['text']
         embeddings_el = embGet.get_embedding_sample(roleplay_sample, 'text')
         for rounds in conversation_rounds_values:
-            lande_conversation, lande_baseline = run_conversation(embeddings_el, generics,
+            lande_conversation, lande_intra, lande_baseline = run_conversation(embeddings_el, generics,
                                                                   label, rounds)
 
             result = {
                 'k': k,
                 'conversation_rounds': rounds,
                 'lande_conversation': lande_conversation,
+                'lande_intra' : lande_intra,
                 'lande_baseline': lande_baseline
             }
             results.append(result)
@@ -49,6 +51,5 @@ def roleplay():
 
     roleplay.get_df_from_dataset()
     generics.get_df_from_dataset()
-    print(roleplay.get_df)
     resultado = run_experiment_1(roleplay, generics, role_batch_size, round_values)
     return resultado

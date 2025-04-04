@@ -49,13 +49,14 @@ def lande_diversity(p):
 # --- Textos de ejemplo (expositivos) ---
 
 texts = {
-    "Cat": separar_en_parrafos("data/cat.txt"),
+    # "Cat": separar_en_parrafos("data/cat.txt"),
     # "Coffee": [
     #     "Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.",
     #     "From the coffee fruit, the seeds are separated to produce a stable, raw product: unroasted green coffee.",
     #     "The beans are roasted and then ground into a fine powder and brewed to make coffee.",
     #     "It is one of the most popular drinks in the world, and can be prepared and presented in a variety of ways."
-    # ],
+    # ]
+    "Fotosintesis": separar_en_parrafos("data/fotosintesis.txt")
     # "Machine Learning": [
     #     "Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to learn from data.",
     #     "These algorithms build a mathematical model based on sample data, known as training data.",

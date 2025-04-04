@@ -38,14 +38,29 @@ def run(embeddings_el, df, updating, update_fn, client, steps = 10):
       i += 1
   return lande_measure
 
+def run_conversation_intra(embeddings_el, df, updating, update_fn, client, steps = 10):
+    incrementText = ""
+    lande_measure = []
+    i = 0
+    while i < steps:
+        incrementText = update_fn(client, incrementText, df, updating, i)    
+        tensor = torch.Tensor(
+            embGet.generate_embeddings(incrementText)).unsqueeze(0)
+        la = utils.lande_intra_index(tensor.numpy()[0])
+        print(la)
+        lande_measure.append(la)
+        i += 1
+    return lande_measure
 
 def run_conversation(embeddings_el, generics : HFDataset, label, conversation_rounds = 10):
     client = Chat()
     lande_convers = run(embeddings_el, generics.get_df(), label, 
                         update_roleplay_answer, client, conversation_rounds)
+    lande_intra = run_conversation_intra(embeddings_el, generics.get_df(), label,
+                        update_roleplay_answer, client, conversation_rounds)
     lande_base = run(embeddings_el, generics.get_df(), label,
                         update_roleplay_baseline, client, conversation_rounds)
-    return lande_convers, lande_base
+    return lande_convers, lande_intra, lande_base
 
 #   Abstract = ""
 #   i = 0
