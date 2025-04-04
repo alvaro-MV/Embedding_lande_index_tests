@@ -5,27 +5,30 @@ from getpass import getpass
 from expositive import expositive
 from plot import plot_conversation, plot_expositive
 
+def setup_api_key():
+    if "OPENAI_API_KEY" not in os.environ:
+        os.environ["OPENAI_API_KEY"] = getpass("api key: ")
 
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Test for probing lande index as a proxy for information flow')
+    parser.add_argument('-t', '--task',  dest ='task', 
+                        action ='store', 
+                        help ='task to be performed: <expositive> or <conversation>')
+    return parser.parse_args()
 
-if "OPENAI_API_KEY" not in os.environ:
-	os.environ["OPENAI_API_KEY"] = getpass("api key: ")
+def main():
+    setup_api_key()
+    args = parse_arguments()
+    print(args.task)
+    
+    if (args.task == 'conversation'):
+        resultado = roleplay()
+        print(resultado)
+        plot_conversation(resultado)
 
-parser = argparse.ArgumentParser(description = 'Test for probing lande index as a proxy for information flow')
- 
-parser.add_argument('-t', '--task',  dest ='task', 
-                    action ='store', 
-                    help ='task to be performed: <expositive> or <conversation>')
+    elif (args.task == 'expositive'):
+        resultado = expositive(0)
+        plot_expositive(resultado)
 
-
-args = parser.parse_args()
-print(args.task)
-
-if (args.task == 'conversation'):
-  resultado = roleplay()
-  print(resultado)
-  plot_conversation(resultado)
-
-elif (args.task == 'expositive'):
-  resultado = expositive(0)
-  plot_expositive(resultado)
-
+if __name__ == "__main__":
+    main()
