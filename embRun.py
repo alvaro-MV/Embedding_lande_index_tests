@@ -61,16 +61,3 @@ def run_conversation(embeddings_el, generics : HFDataset, label, conversation_ro
     lande_base = run(embeddings_el, generics.get_df(), label,
                         update_roleplay_baseline, client, conversation_rounds)
     return lande_convers, lande_intra, lande_base
-
-#   Abstract = ""
-#   i = 0
-#   lande_abstract = []
-#   while i < n_batches:
-#       Abstract += abstract_chunks[i] + "|"
-#       #print(f"Answers: -----------: {Answers}\n")
-#       t_chunks = torch.Tensor(embGet.generate_embeddings(Abstract)).unsqueeze(0)
-#       la = utils.lande_index(t_chunks, title_embs)
-#       #print(f"li: {la}\n")
-#       lande_abstract.append(la)
-#       i += 1
-#   return lande_abstract
