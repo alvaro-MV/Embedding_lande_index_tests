@@ -36,10 +36,10 @@ def plot_conversation(resultados):
                 x = list(range(1, rounds + 1))
                 # conv = [t.item() for t in entry['lande_conversation']]
                 intra = [t for t in entry['lande_intra']]
-                # base = [t.item() for t in entry['lande_baseline']]
+                base = [t.item() for t in entry['lande_baseline']]
                 # ax.plot(x, conv, marker='o', label='Conversation')
                 ax.plot(x, intra, marker='o', label='Intra')
-                # ax.plot(x, base, marker='s', label='Baseline')
+                ax.plot(x, base, marker='s', label='Baseline')
                 ax.set_title(f'k={k}, rounds={rounds}')
             else:
                 ax.set_visible(False)  # Ocultar subplot si no hay datos

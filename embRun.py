@@ -58,6 +58,6 @@ def run_conversation(embeddings_el, generics : HFDataset, label, conversation_ro
                         update_roleplay_answer, client, conversation_rounds)
     lande_intra = run_conversation_intra(embeddings_el, generics.get_df(), label,
                         update_roleplay_answer, client, conversation_rounds)
-    lande_base = run(embeddings_el, generics.get_df(), label,
+    lande_base = run_conversation_intra(embeddings_el, generics.get_df(), label,
                         update_roleplay_baseline, client, conversation_rounds)
     return lande_convers, lande_intra, lande_base
