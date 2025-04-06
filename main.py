@@ -2,7 +2,7 @@ import os
 import argparse
 from roleplay import roleplay
 from getpass import getpass
-from expositive import expositive
+from expositive import expositive, expositive_mayeutic
 from plot import plot_conversation, plot_expositive
 
 def setup_api_key():
@@ -28,6 +28,10 @@ def main():
 
     elif (args.task == 'expositive'):
         resultado = expositive(0)
+        plot_expositive(resultado)
+
+    elif (args.task == 'expositive_mayeutic'):
+        resultado = expositive_mayeutic()
         plot_expositive(resultado)
 
 if __name__ == "__main__":
