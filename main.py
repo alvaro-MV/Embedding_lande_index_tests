@@ -32,7 +32,7 @@ def main():
 
     elif (args.task == 'expositive_mayeutic'):
         resultado = expositive_mayeutic()
-        plot_expositive(resultado)
+        plot_conversation(resultado)
 
 if __name__ == "__main__":
     main()

@@ -5,6 +5,12 @@ import random
 import kagglehub
 from datasets import load_dataset
 
+# Funcion que se le pasa a método
+# trasnsform_dataset
+def select_train_set(dataset):
+	return dataset['train']
+
+
 
 class embDataset(ABC):
 	@abstractmethod	

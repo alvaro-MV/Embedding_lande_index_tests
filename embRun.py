@@ -58,8 +58,8 @@ def run_conversation(embeddings_el, generics : HFDataset, label, conversation_ro
     runner_mayeutic = Run(update_mayeutic_answer, None, client, conversation_rounds)
     runner_baseline = Run(update_roleplay_baseline, generics.get_df(), None, conversation_rounds)
 
-    lande_convers = runner_mayeutic.run(embeddings_el, label, 'inter')
+    # lande_convers = runner_mayeutic.run(embeddings_el, label, 'inter')
     lande_intra = runner_mayeutic.run(None, label, 'intra')
-    lande_base = runner_baseline.run(embeddings_el, label, 'intra')
+    lande_base = runner_baseline.run(None, label, 'intra')
     
-    return lande_convers, lande_intra, lande_base
+    return lande_intra, lande_base
