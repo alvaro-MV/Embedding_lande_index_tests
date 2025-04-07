@@ -32,24 +32,3 @@ Since water is used as the electron donor in oxygenic photosynthesis, the equati
 
     CO2carbon
     dioxide + 2H2Owater + photonslight energy → [CH2O]carbohydrate + O2oxygen + H2Owater
-
-This equation emphasizes that water is both a reactant in the light-dependent reaction and a product of the light-independent reaction, but canceling n water molecules from each side gives the net equation:
-
-    CO2carbon
-    dioxide + H2O water + photonslight energy → [CH2O]carbohydrate + O2 oxygen 
-
-Other processes substitute other compounds (such as arsenite) for water in the electron-supply role; for example some microbes use sunlight to oxidize arsenite to arsenate:[18] The equation for this reaction is:
-
-    CO2carbon
-    dioxide + (AsO3−
-    3)
-    arsenite + photonslight energy → (AsO3−
-    4)
-    arsenate + COcarbon
-    monoxide(used to build other compounds in subsequent reactions)[19]
-
-Photosynthesis occurs in two stages. In the first stage, light-dependent reactions or light reactions capture the energy of light and use it to make the hydrogen carrier NADPH and the energy-storage molecule ATP. During the second stage, the light-independent reactions use these products to capture and reduce carbon dioxide.
-
-Most organisms that use oxygenic photosynthesis use visible light for the light-dependent reactions, although at least three use shortwave infrared or, more specifically, far-red radiation.[20]
-
-Some organisms employ even more radical variants of photosynthesis. Some archaea use a simpler method that employs a pigment similar to those used for vision in animals. The bacteriorhodopsin changes its configuration in response to sunlight, acting as a proton pump. This produces a proton gradient more directly, which is then converted to chemical energy. The process does not involve carbon dioxide fixation and does not release oxygen, and seems to have evolved separately from the more common types of photosynthesis.[21] 

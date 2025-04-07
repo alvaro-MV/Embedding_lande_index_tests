@@ -14,8 +14,8 @@ def select_train_set(dataset):
 # round_values = [5, 10, 20]
 # role_batch_size = [3, 8, 15, 20]
 
-round_values = [8]
-role_batch_size = [3, 5]
+round_values = [5]
+role_batch_size = [3]
 
 def run_experiment_1(roleplay : HFDataset, generics, k_values, conversation_rounds_values):
     results = []

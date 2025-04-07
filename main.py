@@ -27,7 +27,7 @@ def main():
         plot_conversation(resultado)
 
     elif (args.task == 'expositive'):
-        resultado = expositive(0)
+        resultado = expositive()
         plot_expositive(resultado)
 
     elif (args.task == 'expositive_mayeutic'):
