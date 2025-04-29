@@ -4,14 +4,14 @@ import embDataset
 from embRun import Run, update_join_next_chunk, run_conversation
 
 def expositive():
-	chunks = utils.separar_en_parrafos("data/fotosintesis.txt")
+	chunks = utils.separar_en_parrafos("data/cognition.txt")
 	runner_expositive = Run(update_join_next_chunk, None, None, len(chunks))
 
 	lande_abstracts = runner_expositive.run(None, chunks, 'intra')
 	return (lande_abstracts)
 
 def expositive_mayeutic():
-	with open('data/coffe.txt', 'r', encoding='utf-8') as f:
+	with open('data/cognition.txt', 'r', encoding='utf-8') as f:
 		chunks = f.read()
 	generics = embDataset.HFDataset("generics_kb")
 	generics.load_dataset()

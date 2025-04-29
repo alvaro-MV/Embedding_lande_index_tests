@@ -1,0 +1,25 @@
+Cognition is the "mental action or process of acquiring knowledge and understanding through thought,
+ experience, and the senses".[2] It encompasses all aspects of intellectual functions and processes
+  such as: perception, attention, thought, imagination, intelligence, 
+  the formation of knowledge, memory and working memory, judgment and evaluation,
+   reasoning and computation, problem-solving and decision-making, comprehension and 
+   production of language. Cognitive processes use existing knowledge to discover new knowledge.
+
+Cognitive processes are analyzed from very different
+perspectives within different contexts, notably in the fields of 
+neuroscience, psychiatry, psychology, education, philosophy,
+anthropology, biology, systemics, logic, and computer science.[3] 
+These and other approaches to the analysis of cognition (such as embodied cognition)
+are synthesized in the developing field of cognitive science, a progressively autonomous
+academic discipline.
+
+In psychology, the term "cognition" is usually used within an information processing view of an individual's psychological functions,[17] and such is the same in cognitive engineering.[18] In the study of social cognition, a branch of social psychology, the term is used to explain attitudes, attribution, and group dynamics.[17] However, psychological research within the field of cognitive science has also s
+ggested an embodied approach to understanding cognition. Contrary to the traditional computationalist approach, embodied cognition emphasizes the body's significant role in the acquisition and development of cognitive capabilities.[19][20]
+
+Human cognition 
+is conscious and unconscious, concrete or abstract, 
+as well as intuitive (like knowledge of a language) and conceptual (like a model of a language). 
+It encompasses processes such as memory, association, concept formation, pattern recognition, language
+, attention, perception, action, problem solving, and mental imagery.[21][22] Traditionally, emotion was not thought of as a cognitive process, but now much research is being undertaken to examine the cognitive psychology of emotion; research is also focused on one's awareness of one's own strategies and methods of cognition, which is called metacognition. The concept of cognition has gone through several revisions through the development of disciplines within psychology.[citation needed]
+
+Psychologists initially understood cognition governing human action as information processing. This was a movement known as cognitivism in the 1950s, emerging after the Behaviorist movement viewed cognition as a form of behavior.[23] Cognitivism approached cognition as a form of computation, viewing the mind as a machine and consciousness as an executive function.[19] However; post cognitivism began to emerge in the 1990s as the development of cognitive science presented theories that highlighted the necessity of cognitive action as embodied, extended, and producing dynamic processes in the mind.[24] The development of Cognitive psychology arose as psychology from different theories, and so began exploring these dynamics concerning mind and environment, starting a movement from these prior dualist paradigms that prioritized cognition as systematic computation or exclusively behavior

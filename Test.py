@@ -57,7 +57,7 @@ texts = {
     #     "Common applications include recommendation systems, image recognition, and natural language processing."
     # ]
     # 'Machine Learning' : separar_en_parrafos("data/machine_learning.txt")
-    'Piaget' : separar_en_parrafos("data/piaget_etapas.txt")
+    'Piaget' : separar_en_parrafos("data/cognition.txt")
      ## "Fotosintesis": separar_en_parrafos("data/fotosintesis.txt")
 
 }
