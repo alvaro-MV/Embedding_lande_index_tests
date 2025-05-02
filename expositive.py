@@ -1,17 +1,25 @@
 import embDataset
 import embUtils as utils
 import embDataset
+import os
 from embRun import Run, update_join_next_chunk, run_conversation
 
 def expositive():
-	chunks = utils.separar_en_parrafos("data/cognition.txt")
-	runner_expositive = Run(update_join_next_chunk, None, None, len(chunks))
-
-	lande_abstracts = runner_expositive.run(None, chunks, 'intra')
-	return (lande_abstracts)
+	result = []
+	files = os.listdir("data/texts")
+	for file in files:
+		chunks = utils.separar_en_parrafos("data/texts/cognition.txt")
+		runner_expositive = Run(update_join_next_chunk, None, None, len(chunks))
+		lande_expositive, i = runner_expositive.run(None, chunks, 'intra')
+		result.append({
+			'text_name' : file,
+			'n_paragraphs' : i,
+			'lande_intra' : lande_expositive
+		})
+	return (result)
 
 def expositive_mayeutic():
-	with open('data/cognition.txt', 'r', encoding='utf-8') as f:
+	with open('data/texts/cognition.txt', 'r', encoding='utf-8') as f:
 		chunks = f.read()
 	generics = embDataset.HFDataset("generics_kb")
 	generics.load_dataset()

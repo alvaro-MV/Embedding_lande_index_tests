@@ -50,7 +50,7 @@ class Run:
             print(lande)
             lande_measure.append(lande)
             i += 1
-        return lande_measure
+        return lande_measure, i
 
 
 def run_conversation(embeddings_el, generics : HFDataset, label, conversation_rounds = 10):

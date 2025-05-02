@@ -1,12 +1,15 @@
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
-def plot_expositive(result):
-    paragraphs = list(range(1, len(result) + 1))
-
-    # Plot
+def plot_expositive(results):
     plt.figure(figsize=(10, 6))
-    plt.plot(paragraphs, result, marker="o", label="Lande Diversity")
+
+    for entry in results:
+        lande = entry['lande_intra']
+        name = entry['text_name']
+        paragraphs = list(range(1, entry['n_paragraphs'] + 1))
+        
+        plt.plot(paragraphs, lande, marker='o', label=name)
 
     plt.xlabel("Number of Paragraphs")
     plt.ylabel("Lande Diversity Index")
