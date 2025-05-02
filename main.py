@@ -1,4 +1,5 @@
 import os
+import pandas
 import argparse
 from roleplay import roleplay
 from getpass import getpass
@@ -28,7 +29,10 @@ def main():
 
     elif (args.task == 'expositive'):
         resultado = expositive()
-        plot_expositive(resultado)
+        resultado_df = pandas.DataFrame(resultado)
+        # print(resultado_df)
+        # plot_expositive(resultado)
+        resultado_df.to_csv('data/tendencias_expositivo', sep=',')
 
     elif (args.task == 'expositive_mayeutic'):
         resultado = expositive_mayeutic()

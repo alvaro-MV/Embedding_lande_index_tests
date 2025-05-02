@@ -47,7 +47,6 @@ class Run:
                 lande = utils.lande_index(tensor, embeddings_el)
             elif type_index == 'intra':
                 lande = utils.lande_intra_index(tensor.numpy()[0])
-            print(lande)
             lande_measure.append(lande)
             i += 1
         return lande_measure, i
