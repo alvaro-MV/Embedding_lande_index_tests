@@ -18,40 +18,21 @@ if COLUMN_NAME not in df.columns:
 
 # === Analyze each series ===
 results = []
-
 for idx, raw_str in enumerate(df[COLUMN_NAME]):
     try:
         # Convert string to list
-        serie = ast.literal_eval(raw_str)
-
-        # Validate it's a numeric list
-        if isinstance(serie, list) and len(serie) >= 3:
-            serie = np.array(serie, dtype=float)
-
-            # Check for variability
-            if np.std(serie) > VARIABILITY_THRESHOLD:
-                scaled = zscore(serie)
-                result = mk.original_test(scaled)
-                results.append({
-                    "row": idx,
-                    "trend": result.trend,
-                    "p_value": result.p,
-                    "tau": result.Tau
-                })
-            else:
-                results.append({
-                    "row": idx,
-                    "trend": "Too flat (after scaling)",
-                    "p_value": None,
-                    "tau": None
-                })
-        else:
-            results.append({
-                "row": idx,
-                "trend": "Invalid or short series",
-                "p_value": None,
-                "tau": None
-            })
+        print(f"idx: {idx}   raw: {raw_str}\n")
+        serie = np.fromstring(
+            raw_str.strip("[]").replace("\n", " "),   # ← elimina '\n'
+            sep=" "                                   # ← separador = espacio
+        )
+        result = mk.original_test(serie)
+        results.append({
+            "row": idx,
+            "trend": result.trend,
+            "p_value": result.p,
+            "tau": result.Tau
+        })
 
     except Exception as e:
         results.append({
