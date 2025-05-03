@@ -1,4 +1,6 @@
 import torch
+import numpy as np
+from scipy.stats import zscore
 import embUtils as utils
 from embUtils import Chat
 from embDataset import HFDataset
@@ -49,6 +51,8 @@ class Run:
                 lande = utils.lande_intra_index(tensor.numpy()[0])
             lande_measure.append(lande)
             i += 1
+        # lande_measure = np.diff(lande_measure) / lande_measure[:-1]
+        lande_measure = zscore(lande_measure)
         return lande_measure, i
 
 

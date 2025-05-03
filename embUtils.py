@@ -21,10 +21,11 @@ def lande_index(label, el):
     return (N/(N-1))*s_div
 
 def lande_intra_index(embedding):
-    soft_vector = softmax(embedding)
-    D = np.sum(soft_vector ** 2)  # Índice Simpson
-    N = len(soft_vector)
-    return (N / (N - 1)) * (1 - D)
+    embedding = np.abs(embedding)/np.sum(np.abs(embedding)) /0.2
+    D = np.sum(embedding ** 2)  # Índice Simpson
+    N = len(embedding)
+    lande_index = (N / (N - 1)) * (1 - D)
+    return lande_index
 
 def separar_en_parrafos(ruta_fichero):
     parrafos = []

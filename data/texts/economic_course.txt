@@ -1,0 +1,461 @@
+Every society, at every level, must make choices about how to use its resources. Families must decide whether to
+spend their money on a new car or a fancy vacation. Towns must choose whether to put more of the budget into police
+and fire protection or into the school system. Nations must decide whether to devote more funds to national defense
+or to protecting the environment. In most cases, there just isn’t enough money in the budget to do everything. How do
+we use our limited resources the best way possible, that is, to obtain the most goods and services we can? There are
+a couple of options. First, we could each produce everything we each consume. Alternatively, we could each produce
+some of what we want to consume, and “trade” for the rest of what we want. Let’s explore these options. Why do we
+not each just produce all of the things we consume? Think back to pioneer days, when individuals knew how to do so
+much more than we do today, from building their homes, to growing their crops, to hunting for food, to repairing their
+equipment. Most of us do not know how to do all—or any—of those things, but it is not because we could not learn.
+Rather, we do not have to. The reason why is something called the division and specialization of labor, a production
+innovation first put forth by Adam Smith (Figure 1.3) in his book, The Wealth of Nations.
+Figure 1.3 Adam Smith Adam Smith introduced the idea of dividing labor into discrete tasks. (Credit: Wikimedia
+Commons)
+The Division of and Specialization of Labor
+The formal study of economics began when Adam Smith (1723–1790) published his famous book The Wealth of
+Nations in 1776. Many authors had written on economics in the centuries before Smith, but he was the first to address
+the subject in a comprehensive way. In the first chapter, Smith introduces the concept of division of labor, which
+means that the way one produces a good or service is divided into a number of tasks that different workers perform,
+instead of all the tasks being done by the same person.
+To illustrate division of labor, Smith counted how many tasks went into making a pin: drawing out a piece of wire,
+cutting it to the right length, straightening it, putting a head on one end and a point on the other, and packaging pins
+for sale, to name just a few. Smith counted 18 distinct tasks that different people performed—all for a pin, believe it
+or not!
+Modern businesses divide tasks as well. Even a relatively simple business like a restaurant divides the task of serving
+meals into a range of jobs like top chef, sous chefs, less-skilled kitchen help, servers to wait on the tables, a greeter
+at the door, janitors to clean up, and a business manager to handle paychecks and bills—not to mention the economic
+12
+Chapter 1 | Welcome to Economics!
+This OpenStax book is available for free at http://cnx.org/content/col23729/1.3
+
+connections a restaurant has with suppliers of food, furniture, kitchen equipment, and the building where it is located.
+A complex business like a large manufacturing factory, such as the shoe factory (Figure 1.4), or a hospital can have
+hundreds of job classifications.
+Figure 1.4 Division of Labor Workers on an assembly line are an example of the divisions of labor. (Credit: Nina
+Hale/Flickr Creative Commons)
+Why the Division of Labor Increases Production
+When we divide and subdivide the tasks involved with producing a good or service, workers and businesses can
+produce a greater quantity of output. In his observations of pin factories, Smith noticed that one worker alone might
+make 20 pins in a day, but that a small business of 10 workers (some of whom would need to complete two or three
+of the 18 tasks involved with pin-making), could make 48,000 pins in a day. How can a group of workers, each
+specializing in certain tasks, produce so much more than the same number of workers who try to produce the entire
+good or service by themselves? Smith offered three reasons.
+First, specialization in a particular small job allows workers to focus on the parts of the production process where
+they have an advantage. (In later chapters, we will develop this idea by discussing comparative advantage.) People
+have different skills, talents, and interests, so they will be better at some jobs than at others. The particular advantages
+may be based on educational choices, which are in turn shaped by interests and talents. Only those with medical
+degrees qualify to become doctors, for instance. For some goods, geography affects specialization. For example, it is
+easier to be a wheat farmer in North Dakota than in Florida, but easier to run a tourist hotel in Florida than in North
+Dakota. If you live in or near a big city, it is easier to attract enough customers to operate a successful dry cleaning
+business or movie theater than if you live in a sparsely populated rural area. Whatever the reason, if people specialize
+in the production of what they do best, they will be more effective than if they produce a combination of things, some
+of which they are good at and some of which they are not.
+Second, workers who specialize in certain tasks often learn to produce more quickly and with higher quality. This
+pattern holds true for many workers, including assembly line laborers who build cars, stylists who cut hair, and
+doctors who perform heart surgery. In fact, specialized workers often know their jobs well enough to suggest
+innovative ways to do their work faster and better.
+A similar pattern often operates within businesses. In many cases, a business that focuses on one or a few products
+(sometimes called its “core competency”) is more successful than firms that try to make a wide range of products.
+Third, specialization allows businesses to take advantage of economies of scale, which means that for many goods,
+as the level of production increases, the average cost of producing each individual unit declines. For example, if a
+factory produces only 100 cars per year, each car will be quite expensive to make on average. However, if a factory
+produces 50,000 cars each year, then it can set up an assembly line with huge machines and workers performing
+specialized tasks, and the average cost of production per car will be lower. The ultimate result of workers who can
+focus on their preferences and talents, learn to do their specialized jobs better, and work in larger organizations is that
+society as a whole can produce and consume far more than if each person tried to produce all of his or her own goods
+and services. The division and specialization of labor has been a force against the problem of scarcity.
+Chapter 1 | Welcome to Economics!
+13
+
+Trade and Markets
+Specialization only makes sense, though, if workers can use the pay they receive for doing their jobs to purchase the
+other goods and services that they need. In short, specialization requires trade.
+You do not have to know anything about electronics or sound systems to play music—you just buy an iPod or MP3
+player, download the music, and listen. You do not have to know anything about artificial fibers or the construction of
+sewing machines if you need a jacket—you just buy the jacket and wear it. You do not need to know anything about
+internal combustion engines to operate a car—you just get in and drive. Instead of trying to acquire all the knowledge
+and skills involved in producing all of the goods and services that you wish to consume, the market allows you to
+learn a specialized set of skills and then use the pay you receive to buy the goods and services you need or want. This
+is how our modern society has evolved into a strong economy.
+Why Study Economics?
+Now that you have an overview on what economics studies, let’s quickly discuss why you are right to study it.
+Economics is not primarily a collection of facts to memorize, although there are plenty of important concepts to learn.
+Instead, think of economics as a collection of questions to answer or puzzles to work. Most importantly, economics
+provides the tools to solve those puzzles. If the economics “bug” has not bitten you yet, there are other reasons why
+you should study economics.
+• Virtually every major problem facing the world today, from global warming, to world poverty, to the conflicts
+in Syria, Afghanistan, and Somalia, has an economic dimension. If you are going to be part of solving those
+problems, you need to be able to understand them. Economics is crucial.
+• It is hard to overstate the importance of economics to good citizenship. You need to be able to vote
+intelligently on budgets, regulations, and laws in general. When the U.S. government came close to a standstill
+at the end of 2012 due to the “fiscal cliff,” what were the issues? Did you know?
+• A basic understanding of economics makes you a well-rounded thinker. When you read articles about
+economic issues, you will understand and be able to evaluate the writer’s argument. When you hear
+classmates, co-workers, or political candidates talking about economics, you will be able to distinguish
+between common sense and nonsense. You will find new ways of thinking about current events and about
+personal and business decisions, as well as current events and politics.
+The study of economics does not dictate the answers, but it can illuminate the different choices.
+1.2 | Microeconomics and Macroeconomics
+By the end of this section, you will be able to:
+• Describe microeconomics
+• Describe macroeconomics
+• Contrast monetary policy and fiscal policy
+Economics is concerned with the well-being of all people, including those with jobs and those without jobs, as well as
+those with high incomes and those with low incomes. Economics acknowledges that production of useful goods and
+services can create problems of environmental pollution. It explores the question of how investing in education helps
+to develop workers’ skills. It probes questions like how to tell when big businesses or big labor unions are operating in
+a way that benefits society as a whole and when they are operating in a way that benefits their owners or members at
+the expense of others. It looks at how government spending, taxes, and regulations affect decisions about production
+and consumption.
+It should be clear by now that economics covers considerable ground. We can divide that ground into two parts:
+Microeconomics focuses on the actions of individual agents within the economy, like households, workers, and
+businesses. Macroeconomics looks at the economy as a whole. It focuses on broad issues such as growth of
+production, the number of unemployed people, the inflationary increase in prices, government deficits, and levels
+of exports and imports. Microeconomics and macroeconomics are not separate subjects, but rather complementary
+perspectives on the overall subject of the economy.
+14
+Chapter 1 | Welcome to Economics!
+This OpenStax book is available for free at http://cnx.org/content/col23729/1.3
+
+To understand why both microeconomic and macroeconomic perspectives are useful, consider the problem of
+studying a biological ecosystem like a lake. One person who sets out to study the lake might focus on specific topics:
+certain kinds of algae or plant life; the characteristics of particular fish or snails; or the trees surrounding the lake.
+Another person might take an overall view and instead consider the lake's ecosystem from top to bottom; what eats
+what, how the system stays in a rough balance, and what environmental stresses affect this balance. Both approaches
+are useful, and both examine the same lake, but the viewpoints are different. In a similar way, both microeconomics
+and macroeconomics study the same economy, but each has a different viewpoint.
+Whether you are scrutinizing lakes or economics, the micro and the macro insights should blend with each other.
+In studying a lake, the micro insights about particular plants and animals help to understand the overall food chain,
+while the macro insights about the overall food chain help to explain the environment in which individual plants and
+animals live.
+In economics, the micro decisions of individual businesses are influenced by whether the macroeconomy is healthy.
+For example, firms will be more likely to hire workers if the overall economy is growing. In turn, macroeconomy's
+performance ultimately depends on the microeconomic decisions that individual households and businesses make.
+Microeconomics
+What determines how households and individuals spend their budgets? What combination of goods and services will
+best fit their needs and wants, given the budget they have to spend? How do people decide whether to work, and if
+so, whether to work full time or part time? How do people decide how much to save for the future, or whether they
+should borrow to spend beyond their current means?
+What determines the products, and how many of each, a firm will produce and sell? What determines the prices a
+firm will charge? What determines how a firm will produce its products? What determines how many workers it
+will hire? How will a firm finance its business? When will a firm decide to expand, downsize, or even close? In the
+microeconomics part of this book, we will learn about the theory of consumer behavior, the theory of the firm, how
+markets for labor and other resources work, and how markets sometimes fail to work properly.
+Macroeconomics
+What determines the level of economic activity in a society? In other words, what determines how many goods and
+services a nation actually produces? What determines how many jobs are available in an economy? What determines
+a nation’s standard of living? What causes the economy to speed up or slow down? What causes firms to hire more
+workers or to lay them off? Finally, what causes the economy to grow over the long term?
+We can determine an economy's macroeconomic health by examining a number of goals: growth in the standard
+of living, low unemployment, and low inflation, to name the most important. How can we use government
+macroeconomic policy to pursue these goals? A nation's central bank conducts monetary policy, which involves
+policies that affect bank lending, interest rates, and financial capital markets. For the United States, this is the Federal
+Reserve. A nation's legislative body determines fiscal policy, which involves government spending and taxes. For
+the United States, this is the Congress and the executive branch, which originates the federal budget. These are
+the government's main tools. Americans tend to expect that government can fix whatever economic problems we
+encounter, but to what extent is that expectation realistic? These are just some of the issues that we will explore in the
+macroeconomic chapters of this book.
+1.3 | How Economists Use Theories and Models to
+Understand Economic Issues
+By the end of this section, you will be able to:
+• Interpret a circular flow diagram
+• Explain the importance of economic theories and models
+• Describe goods and services markets and labor markets
+Chapter 1 | Welcome to Economics!
+15
+
+Figure 1.5 John Maynard Keynes One of the most influential economists in modern times was John Maynard
+Keynes. (Credit: Wikimedia Commons)
+John Maynard Keynes (1883–1946), one of the greatest economists of the twentieth century, pointed out that
+economics is not just a subject area but also a way of thinking. Keynes (Figure 1.5) famously wrote in the
+introduction to a fellow economist’s book: “[Economics] is a method rather than a doctrine, an apparatus of the mind,
+a technique of thinking, which helps its possessor to draw correct conclusions.” In other words, economics teaches
+you how to think, not what to think.
+Watch this video (http://openstax.org/l/Keynes) about John Maynard Keynes and his influence on economics.
+Economists see the world through a different lens than anthropologists, biologists, classicists, or practitioners of any
+other discipline. They analyze issues and problems using economic theories that are based on particular assumptions
+about human behavior. These assumptions tend to be different than the assumptions an anthropologist or psychologist
+might use. A theory is a simplified representation of how two or more variables interact with each other. The purpose
+of a theory is to take a complex, real-world issue and simplify it down to its essentials. If done well, this enables
+the analyst to understand the issue and any problems around it. A good theory is simple enough to understand, while
+complex enough to capture the key features of the object or situation you are studying.
+Sometimes economists use the term model instead of theory. Strictly speaking, a theory is a more abstract
+representation, while a model is a more applied or empirical representation. We use models to test theories, but for
+this course we will use the terms interchangeably.
+For example, an architect who is planning a major office building will often build a physical model that sits on a
+tabletop to show how the entire city block will look after the new building is constructed. Companies often build
+models of their new products, which are more rough and unfinished than the final product, but can still demonstrate
+how the new product will work.
+A good model to start with in economics is the circular flow diagram (Figure 1.6). It pictures the economy as
+consisting of two groups—households and firms—that interact in two markets: the goods and services market in
+which firms sell and households buy and the labor market in which households sell labor to business firms or other
+employees.
+16
+Chapter 1 | Welcome to Economics!
+This OpenStax book is available for free at http://cnx.org/content/col23729/1.3
+
+Figure 1.6 The Circular Flow Diagram The circular flow diagram shows how households and firms interact in the
+goods and services market, and in the labor market. The direction of the arrows shows that in the goods and services
+market, households receive goods and services and pay firms for them. In the labor market, households provide labor
+and receive payment from firms through wages, salaries, and benefits.
+Firms produce and sell goods and services to households in the market for goods and services (or product market).
+Arrow “A” indicates this. Households pay for goods and services, which becomes the revenues to firms. Arrow “B”
+indicates this. Arrows A and B represent the two sides of the product market. Where do households obtain the income
+to buy goods and services? They provide the labor and other resources (e.g. land, capital, raw materials) firms need
+to produce goods and services in the market for inputs (or factors of production). Arrow “C” indicates this. In return,
+firms pay for the inputs (or resources) they use in the form of wages and other factor payments. Arrow “D” indicates
+this. Arrows “C” and “D” represent the two sides of the factor market.
+Of course, in the real world, there are many different markets for goods and services and markets for many different
+types of labor. The circular flow diagram simplifies this to make the picture easier to grasp. In the diagram, firms
+produce goods and services, which they sell to households in return for revenues. The outer circle shows this, and
+represents the two sides of the product market (for example, the market for goods and services) in which households
+demand and firms supply. Households sell their labor as workers to firms in return for wages, salaries, and benefits.
+The inner circle shows this and represents the two sides of the labor market in which households supply and firms
+demand.
+This version of the circular flow model is stripped down to the essentials, but it has enough features to explain how
+the product and labor markets work in the economy. We could easily add details to this basic model if we wanted to
+introduce more real-world elements, like financial markets, governments, and interactions with the rest of the globe
+(imports and exports).
+Economists carry a set of theories in their heads like a carpenter carries around a toolkit. When they see an economic
+issue or problem, they go through the theories they know to see if they can find one that fits. Then they use the
+theory to derive insights about the issue or problem. Economists express theories as diagrams, graphs, or even as
+mathematical equations. (Do not worry. In this course, we will mostly use graphs.) Economists do not figure out the
+answer to the problem first and then draw the graph to illustrate. Rather, they use the graph of the theory to help
+them figure out the answer. Although at the introductory level, you can sometimes figure out the right answer without
+applying a model, if you keep studying economics, before too long you will run into issues and problems that you
+will need to graph to solve. We explain both micro and macroeconomics in terms of theories and models. The most
+well-known theories are probably those of supply and demand, but you will learn a number of others.
+Chapter 1 | Welcome to Economics!
+17
+
+1.4 | How To Organize Economies: An Overview of
+Economic Systems
+By the end of this section, you will be able to:
+• Contrast traditional economies, command economies, and market economies
+• Explain gross domestic product (GDP)
+• Assess the importance and effects of globalization
+Think about what a complex system a modern economy is. It includes all production of goods and services, all buying
+and selling, all employment. The economic life of every individual is interrelated, at least to a small extent, with the
+economic lives of thousands or even millions of other individuals. Who organizes and coordinates this system? Who
+insures that, for example, the number of televisions a society provides is the same as the amount it needs and wants?
+Who insures that the right number of employees work in the electronics industry? Who insures that televisions are
+produced in the best way possible? How does it all get done?
+There are at least three ways that societies organize an economy. The first is the traditional economy, which is the
+oldest economic system and is used in parts of Asia, Africa, and South America. Traditional economies organize their
+economic affairs the way they have always done (i.e., tradition). Occupations stay in the family. Most families are
+farmers who grow the crops using traditional methods. What you produce is what you consume. Because tradition
+drives the way of life, there is little economic progress or development.
+Figure 1.7 A Command Economy Ancient Egypt was an example of a command economy. (Credit: Jay Bergesen/
+Flickr Creative Commons)
+Command economies are very different. In a command economy, economic effort is devoted to goals passed down
+from a ruler or ruling class. Ancient Egypt was a good example: a large part of economic life was devoted to building
+pyramids, like those in Figure 1.7, for the pharaohs. Medieval manor life is another example: the lord provided the
+land for growing crops and protection in the event of war. In return, vassals provided labor and soldiers to do the
+lord’s bidding. In the last century, communism emphasized command economies.
+In a command economy, the government decides what goods and services will be produced and what prices it will
+charge for them. The government decides what methods of production to use and sets wages for workers. The
+government provides many necessities like healthcare and education for free. Currently, Cuba and North Korea have
+command economies.
+18
+Chapter 1 | Welcome to Economics!
+This OpenStax book is available for free at http://cnx.org/content/col23729/1.3
+
+Figure 1.8 A Market Economy Nothing says “market” more than The New York Stock Exchange. (Credit: Erik Drost/
+Flickr Creative Commons)
+Although command economies have a very centralized structure for economic decisions, market economies have a
+very decentralized structure. A market is an institution that brings together buyers and sellers of goods or services,
+who may be either individuals or businesses. The New York Stock Exchange (Figure 1.8) is a prime example of
+a market which brings buyers and sellers together. In a market economy, decision-making is decentralized. Market
+economies are based on private enterprise: the private individuals or groups of private individuals own and operate
+the means of production (resources and businesses). Businesses supply goods and services based on demand. (In
+a command economy, by contrast, the government owns resources and businesses.) Supply of goods and services
+depends on what the demands. A person’s income is based on his or her ability to convert resources (especially labor)
+into something that society values. The more society values the person’s output, the higher the income (think Lady
+Gaga or LeBron James). In this scenario, market forces, not governments, determine economic decisions.
+Most economies in the real world are mixed. They combine elements of command and market (and even traditional)
+systems. The U.S. economy is positioned toward the market-oriented end of the spectrum. Many countries in Europe
+and Latin America, while primarily market-oriented, have a greater degree of government involvement in economic
+decisions than the U.S. economy. China and Russia, while over the past several decades have moved more in the
+direction of having a market-oriented system, remain closer to the command economy end of the spectrum. The
+Heritage Foundation provides information about how free and thus market-oriented different countries' are, as the
+following Clear It Up feature discusses. For a similar ranking, but one that defines freedom more broadly, see the
+Cato Foundation's Human Freedom Index (https://openstax.org/l/cato) .
+What countries are considered economically free?
+Who is in control of economic decisions? Are people free to do what they want and to work where they want?
+Are businesses free to produce when they want and what they choose, and to hire and fire as they wish?
+Are banks free to choose who will receive loans, or does the government control these kinds of choices?
+Each year, researchers at the Heritage Foundation and the Wall Street Journal look at 50 different categories
+of economic freedom for countries around the world. They give each nation a score based on the extent of
+economic freedom in each category.
+The 2016 Heritage Foundation’s Index of Economic Freedom report ranked 178 countries around the world:
+Table 1.1 lists some examples of the most free and the least free countries. Several additional countries were
+not ranked because of extreme instability that made judgments about economic freedom impossible. These
+countries include Afghanistan, Iraq, Libya, Syria, Somalia, and Yemen.
+The assigned rankings are inevitably based on estimates, yet even these rough measures can be useful
+for discerning trends. In 2015, 101 of the 178 included countries shifted toward greater economic freedom,
+although 77 of the countries shifted toward less economic freedom. In recent decades, the overall trend has
+been a higher level of economic freedom around the world.
+Chapter 1 | Welcome to Economics!
+19
+
+Most Economic Freedom
+Least Economic Freedom
+1. Hong Kong
+167. Timor-Leste
+2. Singapore
+168. Democratic Republic of Congo
+3. New Zealand
+169. Argentina
+4. Switzerland
+170. Equatorial Guinea
+5. Australia
+171. Iran
+6. Canada
+172. Republic of Congo
+7. Chile
+173. Eritrea
+8. Ireland
+174. Turkmenistan
+9. Estonia
+175. Zimbabwe
+10. United Kingdom
+176. Venezuela
+11. United States
+177. Cuba
+12. Denmark
+178. North Korea
+Table 1.1 Economic Freedoms, 2016
+(Source: The Heritage Foundation, 2016 Index of
+Economic Freedom, Country Rankings, http://www.heritage.org/index/ranking)
+Regulations: The Rules of the Game
+Markets and government regulations are always entangled. There is no such thing as an absolutely free market.
+Regulations always define the “rules of the game” in the economy. Economies that are primarily market-oriented
+have fewer regulations—ideally just enough to maintain an even playing field for participants. At a minimum, these
+laws govern matters like safeguarding private property against theft, protecting people from violence, enforcing legal
+contracts, preventing fraud, and collecting taxes. Conversely, even the most command-oriented economies operate
+using markets. How else would buying and selling occur? The government heavily regulates decisions of what to
+produce and prices to charge. Heavily regulated economies often have underground economies (or black markets),
+which are markets where the buyers and sellers make transactions without the government’s approval.
+The question of how to organize economic institutions is typically not a black-or-white choice between all market
+or all government, but instead involves a balancing act over the appropriate combination of market freedom and
+government rules.
+
+his OpenStax book is available for free at http://cnx.org/content/col23729/1.3
+
+Figure 1.9 Globalization Cargo ships are one mode of transportation for shipping goods in the global economy.
+(Credit: Raul Valdez/Flickr Creative Commons)
+The Rise of Globalization
+Recent decades have seen a trend toward globalization, which is the expanding cultural, political, and economic
+connections between people around the world. One measure of this is the increased buying and selling of goods,
+services, and assets across national borders—in other words, international trade and financial capital flows.
+Globalization has occurred for a number of reasons. Improvements in shipping, as illustrated by the container ship in
+Figure 1.9, and air cargo have driven down transportation costs. Innovations in computing and telecommunications
+have made it easier and cheaper to manage long-distance economic connections of production and sales. Many
+valuable products and services in the modern economy can take the form of information—for example: computer
+software; financial advice; travel planning; music, books and movies; and blueprints for designing a building. These
+products and many others can be transported over telephones and computer networks at ever-lower costs. Finally,
+international agreements and treaties between countries have encouraged greater trade.
+Table 1.2 presents one measure of globalization. It shows the percentage of domestic economic production that was
+exported for a selection of countries from 2010 to 2015, according to an entity known as The World Bank. Exports are
+the goods and services that one produces domestically and sells abroad. Imports are the goods and services that one
+produces abroad and then sells domestically. Gross domestic product (GDP) measures the size of total production in
+an economy. Thus, the ratio of exports divided by GDP measures what share of a country’s total economic production
+is sold in other countries.
+
+In recent decades, the export/GDP ratio has generally risen, both worldwide and for the U.S. economy. Interestingly,
+the share of U.S. exports in proportion to the U.S. economy is well below the global average, in part because large
+economies like the United States can contain more of the division of labor inside their national borders. However,
+smaller economies like Belgium, Korea, and Canada need to trade across their borders with other countries to take
+full advantage of division of labor, specialization, and economies of scale. In this sense, the enormous U.S. economy
+is less affected by globalization than most other countries.
+Table 1.2 indicates that many medium and low income countries around the world, like Mexico and China, have also
+experienced a surge of globalization in recent decades. If an astronaut in orbit could put on special glasses that make
+all economic transactions visible as brightly colored lines and look down at Earth, the astronaut would see the planet
+covered with connections.
+Despite the rise in globalization over the last few decades, in recent years we've seen significant pushback against
+globalization from people across the world concerned about loss of jobs, loss of political sovereignty, and increased
+economic inequality. Prominent examples of this pushback include the 2016 vote in Great Britain to exit the European
+Union (i.e. Brexit), and the election of Donald J. Trump for President of the United States.
+Hopefully, you now have an idea about economics. Before you move to any other chapter of study, be sure to read
+the very important appendix to this chapter called The Use of Mathematics in Principles of Economics. It is
+essential that you learn more about how to read and use models in economics.
+Decisions ... Decisions in the Social Media Age
+The world we live in today provides nearly instant access to a wealth of information. Consider that as
+recently as the late 1970s, the Farmer’s Almanac, along with the Weather Bureau of the U.S. Department of
+Agriculture, were the primary sources American farmers used to determine when to plant and harvest their
+crops. Today, farmers are more likely to access, online, weather forecasts from the National Oceanic and
+Atmospheric Administration or watch the Weather Channel. After all, knowing the upcoming forecast could
+drive when to harvest crops. Consequently, knowing the upcoming weather could change the amount of crop
+harvested.
+Some relatively new information forums, such as Facebook, are rapidly changing how information is
+distributed; hence, influencing decision making. In 2014, the Pew Research Center reported that 71% of online
+adults use Facebook. This social media forum posts topics ranging from the National Basketball Association,
+to celebrity singers and performers, to farmers.
+Information helps us make decisions as simple as what to wear today to how many reporters the media should
+send to cover a crash. Each of these decisions is an economic decision. After all, resources are scarce. If the
+media send ten reporters to cover an accident, they are not available to cover other stories or complete other
+tasks. Information provides the necessary knowledge to make the best possible decisions on how to utilize
+scarce resources. Welcome to the world of economics!
+22
+Chapter 1 | Welcome to Economics!
+This OpenStax book is available for free at http://cnx.org/content/col23729/1.3
+
+circular flow diagram
+command economy
+division of labor
+economics
+economies of scale
+exports
+fiscal policy
+globalization
+goods and services market
+gross domestic product (GDP)
+imports
+labor market
+macroeconomics
+market
+market economy
+microeconomics
+model
+monetary policy
+private enterprise
+scarcity
+specialization
+theory
+traditional economy
+underground economy
+KEY TERMS
+a diagram that views the economy as consisting of households and firms interacting in a goods
+and services market and a labor market
+an economy where economic decisions are passed down from government authority and where
+the government owns the resources
+the way in which different workers divide required tasks to produce a good or service
+the study of how humans make choices under conditions of scarcity
+when the average cost of producing each individual unit declines as total output increases
+products (goods and services) made domestically and sold abroad
+economic policies that involve government spending and taxes
+the trend in which buying and selling in markets have increasingly crossed national borders
+a market in which firms are sellers of what they produce and households are buyers
+measure of the size of total production in an economy
+products (goods and services) made abroad and then sold domestically
+the market in which households sell their labor as workers to business firms or other employers
+the branch of economics that focuses on broad issues such as growth, unemployment, inflation, and
+trade balance
+interaction between potential buyers and sellers; a combination of demand and supply
+an economy where economic decisions are decentralized, private individuals own resources, and
+businesses supply goods and services based on demand
+the branch of economics that focuses on actions of particular agents within the economy, like
+households, workers, and business firms
+see theory
+policy that involves altering the level of interest rates, the availability of credit in the economy, and
+the extent of borrowing
+system where private individuals or groups of private individuals own and operate the means of
+production (resources and businesses)
+when human wants for goods and services exceed the available supply
+when workers or firms focus on particular tasks for which they are well-suited within the overall
+production process
+a representation of an object or situation that is simplified while including enough of the key features to help us
+understand the object or situation
+typically an agricultural economy where things are done the same as they have always been done
+a market where the buyers and sellers make transactions in violation of one or more

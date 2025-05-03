@@ -30,8 +30,8 @@ def main():
     elif (args.task == 'expositive'):
         resultado = expositive()
         resultado_df = pandas.DataFrame(resultado)
-        # print(resultado_df)
-        # plot_expositive(resultado)
+        print(resultado_df)
+        plot_expositive(resultado)
         resultado_df.to_csv('data/tendencias_expositivo', sep=',')
 
     elif (args.task == 'expositive_mayeutic'):

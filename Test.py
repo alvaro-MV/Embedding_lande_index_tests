@@ -71,7 +71,7 @@ for topic, paragraphs in texts.items():
     for i in range(1, len(paragraphs) + 1):
         cumulative_text = " ".join(paragraphs[:i])
         embedding = generate_embeddings(cumulative_text)
-        probs = softmax(embedding)
+        probs = np.abs(embedding)
         lande = lande_diversity(probs)
         results.append({
             "Topic": topic,

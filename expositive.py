@@ -6,16 +6,18 @@ from embRun import Run, update_join_next_chunk, run_conversation
 
 def expositive():
 	result = []
-	files = os.listdir("data/texts")
-	for file in files:
-		chunks = utils.separar_en_parrafos("data/texts/cognition.txt")
-		runner_expositive = Run(update_join_next_chunk, None, None, len(chunks))
-		lande_expositive, i = runner_expositive.run(None, chunks, 'intra')
-		result.append({
-			'text_name' : file,
-			'n_paragraphs' : i,
-			'lande_intra' : lande_expositive
-		})
+	# files = os.listdir("data/texts")
+	# for file in files:
+	chunks = utils.separar_en_parrafos("data/texts/economic_course.txt")
+	runner_expositive = Run(update_join_next_chunk, None, None, len(chunks))
+	lande_expositive, i = runner_expositive.run(None, chunks, 'intra')
+	print(f"lande_expositive: {lande_expositive}\n")
+	
+	result.append({
+		'text_name' : "econ_course",
+		'n_paragraphs' : i,
+		'lande_intra' : lande_expositive
+	})
 	return (result)
 
 def expositive_mayeutic():
