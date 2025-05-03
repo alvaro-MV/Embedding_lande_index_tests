@@ -8,13 +8,13 @@ def expositive():
 	result = []
 	# files = os.listdir("data/texts")
 	# for file in files:
-	chunks = utils.separar_en_parrafos("data/texts/economic_course.txt")
+	chunks = utils.separar_en_parrafos("data/texts/philo.txt")
 	runner_expositive = Run(update_join_next_chunk, None, None, len(chunks))
 	lande_expositive, i = runner_expositive.run(None, chunks, 'intra')
 	print(f"lande_expositive: {lande_expositive}\n")
 	
 	result.append({
-		'text_name' : "econ_course",
+		'text_name' : "philo",
 		'n_paragraphs' : i,
 		'lande_intra' : lande_expositive
 	})

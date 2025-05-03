@@ -1,0 +1,420 @@
+Energy is defined as the ability to do work. As you’ve learned, energy exists in different forms. For example, electrical
+energy, light energy, and heat energy are all different types of energy. While these are all familiar types of energy that one
+can see or feel, there is another type of energy that is much less tangible. This energy is associated with something as simple
+as an object held above the ground. In order to appreciate the way energy flows into and out of biological systems, it is
+important to understand more about the different types of energy that exist in the physical world.
+Types of Energy
+When an object is in motion, there is energy associated with that object. In the example of an airplane in flight, there is a
+great deal of energy associated with the motion of the airplane. This is because moving objects are capable of enacting a
+change, or doing work. Think of a wrecking ball. Even a slow-moving wrecking ball can do a great deal of damage to other
+objects. However, a wrecking ball that is not in motion is incapable of performing work. Energy associated with objects in
+motion is called kinetic energy. A speeding bullet, a walking person, the rapid movement of molecules in the air (which
+Chapter 6 | Metabolism
+243
+
+produces heat), and electromagnetic radiation like light all have kinetic energy.
+Now what if that same motionless wrecking ball is lifted two stories above a car with a crane? If the suspended wrecking
+ball is unmoving, is there energy associated with it? The answer is yes. The suspended wrecking ball has energy associated
+with it that is fundamentally different from the kinetic energy of objects in motion. This form of energy results from the
+fact that there is the potential for the wrecking ball to do work. If it is released, indeed it would do work. Because this type
+of energy refers to the potential to do work, it is called potential energy. Objects transfer their energy between kinetic and
+potential in the following way: As the wrecking ball hangs motionless, it has 0 kinetic and 100 percent potential energy.
+Once it is released, its kinetic energy begins to increase because it builds speed due to gravity. At the same time, as it nears
+the ground, it loses potential energy. Somewhere mid-fall it has 50 percent kinetic and 50 percent potential energy. Just
+before it hits the ground, the ball has nearly lost its potential energy and has near-maximal kinetic energy. Other examples of
+potential energy include the energy of water held behind a dam (Figure 6.6), or a person about to skydive out of an airplane.
+Figure 6.6 Water behind a dam has potential energy. Moving water, such as in a waterfall or a rapidly flowing river, has
+kinetic energy. (credit “dam”: modification of work by "Pascal"/Flickr; credit “waterfall”: modification of work by Frank
+Gualtieri)
+Potential energy is not only associated with the location of matter (such as a child sitting on a tree branch), but also with the
+structure of matter. A spring on the ground has potential energy if it is compressed; so does a rubber band that is pulled taut.
+The very existence of living cells relies heavily on structural potential energy. On a chemical level, the bonds that hold the
+atoms of molecules together have potential energy. Remember that anabolic cellular pathways require energy to synthesize
+complex molecules from simpler ones, and catabolic pathways release energy when complex molecules are broken down.
+The fact that energy can be released by the breakdown of certain chemical bonds implies that those bonds have potential
+energy. In fact, there is potential energy stored within the bonds of all the food molecules we eat, which is eventually
+harnessed for use. This is because these bonds can release energy when broken. The type of potential energy that exists
+within chemical bonds, and is released when those bonds are broken, is called chemical energy (Figure 6.7). Chemical
+energy is responsible for providing living cells with energy from food. The release of energy is brought about by breaking
+the molecular bonds within fuel molecules.
+244
+Chapter 6 | Metabolism
+This OpenStax book is available for free at http://cnx.org/content/col12078/1.6
+
+Figure 6.7 The molecules in gasoline (octane, the chemical formula shown) contain chemical energy within the
+chemical bonds. This energy is transformed into kinetic energy that allows a car to race on a racetrack. (credit “car”:
+modification of work by Russell Trow)
+Visit this site (http://openstaxcollege.org/l/simple_pendulum) and select “A simple pendulum” on the menu (under
+“Harmonic Motion”) to see the shifting kinetic (K) and potential energy (U) of a pendulum in motion.
+Explain how the potential and kinetic energy shown in the pendulum model (http://openstaxcollege.org/l/
+simple_pendulum) relates to a child swinging on a swing set.
+a.
+Kinetic energy increases when the child swings downward, potential energy increases when the child swings
+upward.
+b.
+Kinetic energy decreases when the child swings downward, potential energy decreases when the child swings
+upward.
+c.
+Kinetic energy increases when the child swings upward, potential energy increases when the child swings
+downward.
+d.
+Kinetic energy increases when child swings downward, potential energy increases when the child swings
+downward.
+Free Energy
+After learning that chemical reactions release energy when energy-storing bonds are broken, an important next question
+is how is the energy associated with chemical reactions quantified and expressed? How can the energy released from
+Chapter 6 | Metabolism
+245
+
+one reaction be compared to that of another reaction? A measurement of free energy is used to quantitate these energy
+transfers. Free energy is called Gibbs free energy (abbreviated with the letter G) after Josiah Willard Gibbs, the scientist
+who developed the measurement. Recall that according to the second law of thermodynamics, all energy transfers involve
+the loss of some amount of energy in an unusable form such as heat, resulting in entropy. Gibbs free energy specifically
+refers to the energy associated with a chemical reaction that is available after entropy is accounted for. In other words, Gibbs
+free energy is usable energy, or energy that is available to do work.
+Every chemical reaction involves a change in free energy, called delta G (∆G). The change in free energy can be calculated
+for any system that undergoes such a change, such as a chemical reaction. To calculate ∆G, subtract the amount of energy
+lost to entropy (denoted as ∆S) from the total energy change of the system. This total energy change in the system is called
+enthalpy and is denoted as ∆H . The formula for calculating ∆G is as follows, where the symbol T refers to absolute
+temperature in Kelvin (degrees Celsius + 273):
+ΔG = ΔH − TΔS
+The standard free energy change of a chemical reaction is expressed as an amount of energy per mole of the reaction product
+(either in kilojoules or kilocalories, kJ/mol or kcal/mol; 1 kJ = 0.239 kcal) under standard pH, temperature, and pressure
+conditions. Standard pH, temperature, and pressure conditions are generally calculated at pH 7.0 in biological systems,
+25 degrees Celsius, and 100 kilopascals (1 atm pressure), respectively. It is important to note that cellular conditions vary
+considerably from these standard conditions, and so standard calculated ∆G values for biological reactions will be different
+inside the cell.
+Endergonic Reactions and Exergonic Reactions
+If energy is released during a chemical reaction, then the resulting value from the above equation will be a negative number.
+In other words, reactions that release energy have a ∆G < 0. A negative ∆G also means that the products of the reaction
+have less free energy than the reactants, because they gave off some free energy during the reaction. Reactions that have a
+negative ∆G and consequently release free energy are called exergonic reactions. Think: exergonic means energy is exiting
+the system. These reactions are also referred to as spontaneous reactions, because they can occur without the addition of
+energy into the system. Understanding which chemical reactions are spontaneous and release free energy is extremely useful
+for biologists, because these reactions can be harnessed to perform work inside the cell. An important distinction must be
+drawn between the term spontaneous and the idea of a chemical reaction that occurs immediately. Contrary to the everyday
+use of the term, a spontaneous reaction is not one that suddenly or quickly occurs. The rusting of iron is an example of a
+spontaneous reaction that occurs slowly, little by little, over time.
+If a chemical reaction requires an input of energy rather than releasing energy, then the ∆G for that reaction will be a
+positive value. In this case, the products have more free energy than the reactants. Thus, the products of these reactions can
+be thought of as energy-storing molecules. These chemical reactions are called endergonic reactions, and they are non-
+spontaneous. An endergonic reaction will not take place on its own without the addition of free energy.
+Let’s revisit the example of the synthesis and breakdown of the food molecule, glucose. Remember that the building of
+complex molecules, such as sugars, from simpler ones is an anabolic process and requires energy. Therefore, the chemical
+reactions involved in anabolic processes are endergonic reactions. On the other hand, the catabolic process of breaking
+sugar down into simpler molecules releases energy in a series of exergonic reactions. Like the example of rust above, the
+breakdown of sugar involves spontaneous reactions, but these reactions don’t occur instantaneously. Figure 6.8 shows some
+other examples of endergonic and exergonic reactions. Later sections will provide more information about what else is
+required to make even spontaneous reactions happen more efficiently.
+246
+Chapter 6 | Metabolism
+This OpenStax book is available for free at http://cnx.org/content/col12078/1.6
+
+Figure 6.8 Shown are some examples of endergonic processes (ones that require energy) and exergonic
+processes (ones that release energy). These include (a) a compost pile decomposing, (b) a chick developing from
+a fertilized egg, (c) sand art being destroyed, and (d) a ball rolling down a hill. (credit a: modification of work by
+Natalie Maynor; credit b: modification of work by USDA; credit c: modification of work by “Athlex”/Flickr; credit d:
+modification of work by Harry Malsch)
+Chapter 6 | Metabolism
+247
+
+Look at each of the processes shown, and decide if it is endergonic or exergonic. In each case, does enthalpy increase
+or decrease, and does entropy increase or decrease?
+a.
+Compost pile decomposition is endergonic, enthalpy increases and entropy increases. A baby developing
+from egg is an endergonic process, enthalpy decreases and entropy decreases. Sand art being destroyed
+is exergonic, no change in enthalpy and entropy increases. A ball rolling downhill is exergonic process,
+enthalpy decreases and no change in entropy.
+b.
+Compost pile decomposition is exergonic, enthalpy increases and entropy increases. A baby developing
+from egg is an endergonic process, enthalpy decreases and entropy decreases. Sand art being destroyed
+is exergonic, no change in enthalpy and entropy decreases. A ball rolling downhill is exergonic process,
+enthalpy decreases and no change in entropy.
+c.
+Compost pile decomposition is exergonic, enthalpy increases and entropy increases. A baby developing
+from egg is an endergonic process, enthalpy decreases and entropy decreases. Sand art being destroyed
+is exergonic, no change in enthalpy and entropy increases. A ball rolling downhill is exergonic process,
+enthalpy decreases and entropy increases.
+d.
+A ball rolling down the hill doesn’t affect the order of system; therefore, the entropy would remain
+unchanged.
+An important concept in the study of metabolism and energy is that of chemical equilibrium. Most chemical reactions are
+reversible. They can proceed in both directions, releasing energy into their environment in one direction, and absorbing
+it from the environment in the other direction (Figure 6.9). The same is true for the chemical reactions involved in cell
+metabolism, such as the breaking down and building up of proteins into and from individual amino acids, respectively.
+Reactants within a closed system will undergo chemical reactions in both directions until a state of equilibrium is reached.
+This state of equilibrium is one of the lowest possible free energy and a state of maximal entropy. Energy must be put
+into the system to push the reactants and products away from a state of equilibrium. Either reactants or products must
+248
+Chapter 6 | Metabolism
+This OpenStax book is available for free at http://cnx.org/content/col12078/1.6
+
+be added, removed, or changed. If a cell were a closed system, its chemical reactions would reach equilibrium, and it
+would die because there would be insufficient free energy left to perform the work needed to maintain life. In a living
+cell, chemical reactions are constantly moving towards equilibrium, but never reach it. This is because a living cell is an
+open system. Materials pass in and out, the cell recycles the products of certain chemical reactions into other reactions, and
+chemical equilibrium is never reached. In this way, living organisms are in a constant energy-requiring, uphill battle against
+equilibrium and entropy. This constant supply of energy ultimately comes from sunlight, which is used to produce nutrients
+in the process of photosynthesis.
+Figure 6.9 Exergonic and endergonic reactions result in changes in Gibbs free energy. Exergonic reactions release
+energy; endergonic reactions require energy to proceed.
+Activation Energy
+There is another important concept that must be considered regarding endergonic and exergonic reactions. Even exergonic
+reactions require a small amount of energy input to get going before they can proceed with their energy-releasing steps.
+These reactions have a net release of energy, but still require some energy in the beginning. This small amount of energy
+input necessary for all chemical reactions to occur is called the activation energy (or free energy of activation) and is
+abbreviated EA (Figure 6.10).
+Why would an energy-releasing, negative ∆G reaction actually require some energy to proceed? The reason lies in the
+steps that take place during a chemical reaction. During chemical reactions, certain chemical bonds are broken and new
+ones are formed. For example, when a glucose molecule is broken down, bonds between the carbon atoms of the molecule
+are broken. Since these are energy-storing bonds, they release energy when broken. However, to get them into a state that
+allows the bonds to break, the molecule must be somewhat contorted. A small energy input is required to achieve this
+contorted state. This contorted state is called the transition state, and it is a high-energy, unstable state. For this reason,
+reactant molecules don’t last long in their transition state, but very quickly proceed to the next steps of the chemical reaction.
+Free energy diagrams illustrate the energy profiles for a given reaction. Whether the reaction is exergonic or endergonic
+determines whether the products in the diagram will exist at a lower or higher energy state than both the reactants and the
+products. However, regardless of this measure, the transition state of the reaction exists at a higher energy state than the
+reactants, and thus, EA is always positive.
+Chapter 6 | Metabolism
+249
+
+Watch an animation of the move from free energy to transition state at this (http://openstaxcollege.org/l/
+energy_reaction) site.
+Explain why transitional states are unstable.
+a.
+Molecules have relaxed molecular structure with low energy.
+b.
+Molecules have strained molecular structure with high energy.
+c.
+Molecules have relaxed molecular structure with high energy.
+d.
+Molecules have strained molecular structure with low energy.
+Where does the activation energy required by chemical reactants come from? The source of the activation energy needed
+to push reactions forward is typically heat energy from the surroundings. Heat energy (the total bond energy of reactants
+or products in a chemical reaction) speeds up the motion of molecules, increasing the frequency and force with which they
+collide; it also moves atoms and bonds within the molecule slightly, helping them reach their transition state. For this reason,
+heating up a system will cause chemical reactants within that system to react more frequently. Increasing the pressure on a
+system has the same effect. Once reactants have absorbed enough heat energy from their surroundings to reach the transition
+state, the reaction will proceed.
+The activation energy of a particular reaction determines the rate at which it will proceed. The higher the activation energy,
+the slower the chemical reaction will be. The example of iron rusting illustrates an inherently slow reaction. This reaction
+occurs slowly over time because of its high EA. Additionally, the burning of many fuels, which is strongly exergonic, will
+take place at a negligible rate unless their activation energy is overcome by sufficient heat from a spark. Once they begin to
+burn, however, the chemical reactions release enough heat to continue the burning process, supplying the activation energy
+for surrounding fuel molecules. Like these reactions outside of cells, the activation energy for most cellular reactions is
+too high for heat energy to overcome at efficient rates. In other words, in order for important cellular reactions to occur
+at appreciable rates (number of reactions per unit time), their activation energies must be lowered (Figure 6.10); this is
+referred to as catalysis. This is a very good thing as far as living cells are concerned. Important macromolecules, such
+as proteins, DNA, and RNA, store considerable energy, and their breakdown is exergonic. If cellular temperatures alone
+provided enough heat energy for these exergonic reactions to overcome their activation barriers, the essential components
+of a cell would disintegrate.
+250
+Chapter 6 | Metabolism
+This OpenStax book is available for free at http://cnx.org/content/col12078/1.6
+
+Figure 6.10 Activation energy is the energy required for a reaction to proceed, and it is lower if the reaction is
+catalyzed. The horizontal axis of this diagram describes the sequence of events in time.
+How does the change in Gibbs free energy (ΔG) differ between the catalyzed versus uncatalyzed reaction?
+a.
+ΔG is greater for the forward direction than for the reverse direction.
+b.
+ΔG is greater for the uncatalyzed than the catalyzed reaction.
+c.
+ΔG is greater for the catalyzed than the uncatalyzed reaction.
+d.
+ΔG is the same for the catalyzed and uncatalyzed reactions.
+Think About It
+All plants use water, carbon dioxide, and energy from the sun to make sugars. Think about what would happen to plants
+that do not have sunlight as an energy source or sufficient water. What would happen to organisms that depend on
+those plants for their own survival? How does depletion or destruction of forests by human activity affect free energy
+availability to organisms living in the rain forest? What measures can be taken to try and restore the free energy to an
+acceptable level?
+Section Summary
+Energy comes in many different forms. Objects in motion do physical work, and kinetic energy is the energy of objects
+in motion. Objects that are not in motion may have the potential to do work, and thus, have potential energy. Molecules
+also have potential energy because the breaking of molecular bonds has the potential to release energy. Living cells depend
+on the harvesting of potential energy from molecular bonds to perform work. Free energy is a measure of energy that is
+available to do work. The free energy of a system changes during energy transfers such as chemical reactions, and this
+change is referred to as ∆G.
+The ∆G of a reaction can be negative or positive, meaning that the reaction releases energy or consumes energy, respectively.
+A reaction with a negative ∆G that gives off energy is called an exergonic reaction. One with a positive ∆G that requires
+energy input is called an endergonic reaction. Exergonic reactions are said to be spontaneous, because their products have
+less energy than their reactants. The products of endergonic reactions have a higher energy state than the reactants, and so
+Chapter 6 | Metabolism
+251
+
+these are nonspontaneous reactions. However, all reactions (including spontaneous –∆G reactions) require an initial input
+of energy in order to reach the transition state, at which they’ll proceed. This initial input of energy is called the activation
+energy.
+6.3 | The Laws of Thermodynamics
+In this section, you will explore the following questions:
+•
+What is entropy?
+•
+What is the difference between the first and second laws of thermodynamics?
+Connection for AP® Courses
+In studying energy, scientists use the term system to refer to the matter and its environment involved in energy transfers,
+such as an ecosystem. Even single cells are biological systems and all systems require energy to maintain order. The more
+ordered a system is, the lower its entropy. Entropy is a measure of the disorder of the system. (Think of your bedroom as a
+system. On Sunday evening, you throw dirty clothes in the laundry basket, put books back on the shelves, and return dirty
+dishes to the kitchen. Cleaning your room requires an input of energy. What gradually happens as the week progresses? You
+guessed it: entropy.) All biological systems obey the laws of chemistry and physics, including the laws of thermodynamics
+that describe the properties and processes of energy transfer in systems. The first law states that the total amount of energy
+in the universe is constant; energy cannot be created or destroyed, but it can be transformed and transferred. The second
+law states that every energy transfer involves some loss of energy in an unusable form, such as heat energy, resulting in a
+more disordered system (e.g., your bedroom over the course of a week). Thus, no energy transfer is completely efficient.
+(We will explore how free energy is stored, transferred, and used in more detail when we study photosynthesis and cellular
+respiration.)
+Information presented and the examples highlighted in the section, support concepts and Learning Objectives outlined in
+Big Idea 2 of the AP® Biology Curriculum Framework. The Learning Objectives listed in the Curriculum Framework
+provide a transparent foundation for the AP® Biology course, an inquiry-based laboratory experience, instructional
+activities, and AP® Exam questions. A Learning Objective merges required content with one or more of the seven Science
+Practices.
+Big Idea 2
+Biological systems utilize free energy and molecular building blocks to grow, to reproduce,
+and to maintain dynamic homeostasis.
+Enduring
+Understanding
+2.A
+Growth, reproduction and maintenance of living systems require free energy and matter.
+Essential
+Knowledge
+2.A.1 All living systems require constant input of free energy.
+Science
+Practice
+6.2 The student can construct explanations of phenomena based on evidence produced
+through scientific practices.
+Learning
+Objective
+2.1 The student is able to explain how biological systems use free energy based on empirical
+data that all organisms require constant energy input to maintain organization, to grow, and
+to reproduce.
+The Science Practice Challenge Questions contain additional test questions for this section that will help you prepare for
+the AP exam. These questions address the following standards:
+[APLO 2.1][APLO 2.2][APLO 2.4][APLO 4.16][APLO 2.3]
+Thermodynamics refers to the study of energy and energy transfer involving physical matter. The matter and its
+environment relevant to a particular case of energy transfer are classified as a system, and everything outside of that system
+is called the surroundings. For instance, when heating a pot of water on the stove, the system includes the stove, the pot, and
+the water. Energy is transferred within the system (between the stove, pot, and water). There are two types of systems: open
+252
+Chapter 6 | Metabolism
+This OpenStax book is available for free at http://cnx.org/content/col12078/1.6
+
+and closed. An open system is one in which energy can be transferred between the system and its surroundings. The stovetop
+system is open because heat can be lost into the air. A closed system is one that cannot transfer energy to its surroundings.
+Biological organisms are open systems. Energy is exchanged between them and their surroundings, as they consume energy-
+storing molecules and release energy to the environment by doing work. Like all things in the physical world, energy is
+subject to the laws of physics. The laws of thermodynamics govern the transfer of energy in and among all systems in the
+universe.
+The First Law of Thermodynamics
+The first law of thermodynamics deals with the total amount of energy in the universe. It states that this total amount
+of energy is constant. In other words, there has always been, and always will be, exactly the same amount of energy
+in the universe. Energy exists in many different forms. According to the first law of thermodynamics, energy may be
+transferred from place to place or transformed into different forms, but it cannot be created or destroyed. The transfers and
+transformations of energy take place around us all the time. Light bulbs transform electrical energy into light energy. Gas
+stoves transform chemical energy from natural gas into heat energy. Plants perform one of the most biologically useful
+energy transformations on earth: that of converting the energy of sunlight into the chemical energy stored within organic
+molecules, as shown in Figure 6.2. Some examples of energy transformations are shown in Figure 6.11.
+The challenge for all living organisms is to obtain energy from their surroundings in forms that they can transfer or
+transform into usable energy to do work. Living cells have evolved to meet this challenge very well. Chemical energy stored
+within organic molecules such as sugars and fats is transformed through a series of cellular chemical reactions into energy
+within molecules of ATP. Energy in ATP molecules is easily accessible to do work. Examples of the types of work that cells
+need to do include building complex molecules, transporting materials, powering the beating motion of cilia or flagella,
+contracting muscle fibers to create movement, and reproduction.
+Figure 6.11 Shown are two examples of energy being transferred from one system to another and transformed from
+one form to another. Humans can convert the chemical energy in food, like this ice cream cone, into kinetic energy
+(the energy of movement to ride a bicycle). Plants can convert electromagnetic radiation (light energy) from the sun
+into chemical energy. (credit “ice cream”: modification of work by D. Sharon Pruitt; credit “kids on bikes”: modification
+of work by Michelle Riggen-Ransom; credit “leaf”: modification of work by Cory Zanker)
+The Second Law of Thermodynamics
+A living cell’s primary tasks of obtaining, transforming, and using energy to do work may seem simple. However,
+Chapter 6 | Metabolism
+253
+
+the second law of thermodynamics explains why these tasks are harder than they appear. None of the energy transfers
+we’ve discussed, along with all energy transfers and transformations in the universe, is completely efficient. In every
+energy transfer, some amount of energy is lost in a form that is unusable. In most cases, this form is heat energy.
+Thermodynamically, heat energy is defined as the energy transferred from one system to another that is not doing work.
+For example, when an airplane flies through the air, some of the energy of the flying plane is lost as heat energy due to
+friction with the surrounding air. This friction actually heats the air by temporarily increasing the speed of air molecules.
+Likewise, some energy is lost as heat energy during cellular metabolic reactions. This is good for warm-blooded creatures
+like us, because heat energy helps to maintain our body temperature. Strictly speaking, no energy transfer is completely
+efficient, because some energy is lost in an unusable form.
+An important concept in physical systems is that of order and disorder (also known as randomness). The more energy that
+is lost by a system to its surroundings, the less ordered and more random the system is. Scientists refer to the measure of
+randomness or disorder within a system as entropy. High entropy means high disorder and low energy (Figure 6.12). To
+better understand entropy, think of a student’s bedroom. If no energy or work were put into it, the room would quickly
+become messy. It would exist in a very disordered state, one of high entropy. Energy must be put into the system, in the form
+of the student doing work and putting everything away, in order to bring the room back to a state of cleanliness and order.
+This state is one of low entropy. Similarly, a car or house must be constantly maintained with work in order to keep it in an
+ordered state. Left alone, the entropy of the house or car gradually increases through rust and degradation. Molecules and
+chemical reactions have varying amounts of entropy as well. For example, as chemical reactions reach a state of equilibrium,
+entropy increases, and as molecules at a high concentration in one place diffuse and spread out, entropy also increases.
+Transfer of Energy and the Resulting Entropy
+Set up a simple experiment to understand how energy is transferred and how a change in entropy results.
+1.
+Take a block of ice. This is water in solid form, so it has a high structural order. This means that the
+molecules cannot move very much and are in a fixed position. The temperature of the ice is 0°C. As a
+result, the entropy of the system is low.
+2.
+Allow the ice to melt at room temperature. What is the state of molecules in the liquid water now? How
+did the energy transfer take place? Is the entropy of the system higher or lower? Why?
+3.
+Heat the water to its boiling point. What happens to the entropy of the system when the water is
+heated?
+All physical systems can be thought of in this way: Living things are highly ordered, requiring constant energy input to
+be maintained in a state of low entropy. As living systems take in energy-storing molecules and transform them through
+chemical reactions, they lose some amount of usable energy in the process, because no reaction is completely efficient. They
+also produce waste and by-products that aren’t useful energy sources. This process increases the entropy of the system’s
+surroundings. Since all energy transfers result in the loss of some usable energy, the second law of thermodynamics states
+that every energy transfer or transformation increases the entropy of the universe. Even though living things are highly
+ordered and maintain a state of low entropy, the entropy of the universe in total is constantly increasing due to the loss of
+usable energy with each energy transfer that occurs. Essentially, living things are in a continuous uphill battle against this
+constant increase in universal entropy.
+254
+Chapter 6 | Metabolism
+This OpenStax book is available for free at http://cnx.org/content/col12078/1.6
+
+Figure 6.12 Entropy is a measure of randomness or disorder in a system. Gases have higher entropy than liquids, and
+liquids have higher entropy than solids.
+Think About It
+•
+Imagine a large ant colony with an elaborate nest, containing many tunnels and passageways. Now imagine that
+an earthquake shakes the ground and demolishes the nest. Did the ant nest have higher entropy before or after the
+earthquake? What can the ants do to restore their nest to close to its original amount of entropy? Explain your
+answers.
+•
+Energy transfers take place constantly in everyday activities. Think of two scenarios: cooking on a stove and
+driving a car. Explain how the second law of thermodynamics applies to these two scenarios.
+Section Summary
+In studying energy, scientists use the term “system” to refer to the matter and its environment involved in energy transfers.
+Everything outside of the system is called the surroundings. Single cells are biological systems. Systems can be thought of
+as having a certain amount of order. It takes energy to make a system more ordered. The more ordered a system is, the lower
+its entropy. Entropy is a measure of the disorder of a system. As a system becomes more disordered, the lower its energy
+and the higher its entropy become.
+A series of laws, called the laws of thermodynamics, describe the properties and processes of energy transfer. The first law
+states that the total amount of energy in the universe is constant. This means that energy can’t be created or destroyed,
+only transferred or transformed. The second law of thermodynamics states that every energy transfer involves some loss of
+energy in an unusable form, such as heat energy, resulting in a more disordered system. In other words, no energy transfer
+is completely efficient and tends toward disorder.
+6.4 | ATP: Adenosine Triphosphate
+In this section, you will explore the following questions:
+•
+Why is ATP considered the energy currency of the cell?
+•
+How is energy released through the hydrolysis of ATP?
+Chapter 6 | Metabolism
+255
+
+Connection for AP® Courses
+Adenosine triphosphate or ATP is the energy “currency” or carrier of the cell. When cells require an input of energy, they
+use ATP. An ATP nucleotide molecule consists of a five-carbon sugar, the nitrogenous base adenine, and three phosphate
+groups. (Do not confuse ATP with the nucleotides of DNA and RNA, although they have structural similarities.) The bonds
+that connect the phosphate have high-energy content, and the energy released from the hydrolysis of ATP to ADP + Pi
+(Adenosine Diphosphate + Pyrophosphate) is used to perform cellular work, such as contracting a muscle or pumping a
+solute across a cell membrane in active transport. Cells use ATP by coupling the exergonic reaction of ATP hydrolysis with
+endergonic reactions, with ATP donating its phosphate group to another molecule via a process called phosphorylation.
+The phosphorylated molecule is at a higher energy state and is less stable than its unphosphorylated form and free energy
+is released to substrates to perform work during this process. Phosphorylation is an example of energy transfer between
+molecules.
+
