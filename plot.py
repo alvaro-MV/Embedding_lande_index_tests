@@ -1,23 +1,54 @@
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
+import math
 
-def plot_expositive(results):
-    plt.figure(figsize=(10, 6))
+def plot_expositive_panels(results, n_per_row: int = 2, figsize=(8, 3)):
+    """
+    Dibuja un gráfico independiente por texto expositivo,
+    organizados en filas con `n_per_row` columnas.
 
-    for entry in results:
+    Parameters
+    ----------
+    results : List[dict]
+        Cada dict debe contener las claves:
+        - 'lande_intra'   : lista con los valores índice de Lande
+        - 'n_paragraphs'  : número total de pasos
+        - 'text_name'     : nombre del texto
+    n_per_row : int, optional
+        Número de gráficos por fila (default 2).
+    figsize : tuple, optional
+        Tamaño (width, height) de cada subgráfico en pulgadas.
+    """
+    n_texts   = len(results)
+    n_rows    = math.ceil(n_texts / n_per_row)
+
+    # Figura global
+    fig, axes = plt.subplots(
+        n_rows, n_per_row,
+        figsize=(figsize[0] * n_per_row, figsize[1] * n_rows),
+        sharey=False, sharex=False
+    )
+    axes = axes.flatten()  # facilita el indexado lineal
+
+    for ax_idx, (entry, ax) in enumerate(zip(results, axes)):
         lande = entry['lande_intra']
-        name = entry['text_name']
-        paragraphs = list(range(1, entry['n_paragraphs'] + 1))
-        
-        plt.plot(paragraphs, lande, marker='o', label=name)
+        name  = entry['text_name']
+        xs    = list(range(1, entry['n_paragraphs'] + 1))
 
-    plt.xlabel("Number of Paragraphs")
-    plt.ylabel("Lande Diversity Index")
-    plt.title("Embedding Diversity Collapse with Growing Text Input")
-    plt.legend()
-    plt.grid(True)
-    plt.gca().xaxis.set_major_locator(MaxNLocator(integer=True))
-    plt.tight_layout()
+        ax.plot(xs, lande, marker='o')
+        ax.set_title(name, fontsize=10)
+        ax.set_xlabel("Number of Paragraphs")
+        ax.set_ylabel("Lande Diversity Index")
+        ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+        ax.grid(True)
+
+    # Oculta ejes sobrantes si n_texts no es múltiplo de n_per_row
+    for ax in axes[n_texts:]:
+        ax.axis('off')
+
+    fig.suptitle("Embedding Diversity Collapse with Growing Text Input",
+                 fontsize=14, y=1.02)
+    fig.tight_layout()
     plt.show()
 
 def plot_conversation(resultados):

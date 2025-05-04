@@ -9,15 +9,16 @@ def expositive():
 	files = os.listdir("data/texts")
 	for file in files:
 		chunks = utils.separar_en_parrafos("data/texts/" + file)
-		runner_expositive = Run(update_join_next_chunk, None, None, len(chunks))
-		lande_expositive, i = runner_expositive.run(None, chunks, 'intra')
-		print(f"lande_expositive: {lande_expositive}\n")
-		
-		result.append({
-			'text_name' : file,
-			'n_paragraphs' : i,
-			'lande_intra' : lande_expositive
-		})
+		if len(chunks) > 7:
+			runner_expositive = Run(update_join_next_chunk, None, None, len(chunks))
+			lande_expositive, i = runner_expositive.run(None, chunks, 'intra')
+			print(f"lande_expositive: {lande_expositive}\n")
+			
+			result.append({
+				'text_name' : file,
+				'n_paragraphs' : i,
+				'lande_intra' : lande_expositive
+			})
 	return (result)
 
 def expositive_mayeutic():

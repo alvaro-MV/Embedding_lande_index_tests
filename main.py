@@ -4,7 +4,7 @@ import argparse
 from roleplay import roleplay
 from getpass import getpass
 from expositive import expositive, expositive_mayeutic
-from plot import plot_conversation, plot_expositive
+from plot import plot_conversation, plot_expositive_panels
 
 def setup_api_key():
     if "OPENAI_API_KEY" not in os.environ:
@@ -31,7 +31,7 @@ def main():
         resultado = expositive()
         resultado_df = pandas.DataFrame(resultado)
         print(resultado_df)
-        plot_expositive(resultado)
+        plot_expositive_panels(resultado)
         resultado_df.to_csv('data/tendencias_expositivo', sep=',')
 
     elif (args.task == 'expositive_mayeutic'):

@@ -11,7 +11,6 @@ VARIABILITY_THRESHOLD = 1e-12
 
 # === Load data ===
 df = pd.read_csv(CSV_PATH)
-
 # === Check column exists ===
 if COLUMN_NAME not in df.columns:
     raise ValueError(f"Column '{COLUMN_NAME}' not found in CSV.")
@@ -28,7 +27,7 @@ for idx, raw_str in enumerate(df[COLUMN_NAME]):
         )
         result = mk.original_test(serie)
         results.append({
-            "row": idx,
+            "name": df.iloc[idx, :].loc['text_name'],
             "trend": result.trend,
             "p_value": result.p,
             "tau": result.Tau
@@ -36,7 +35,7 @@ for idx, raw_str in enumerate(df[COLUMN_NAME]):
 
     except Exception as e:
         results.append({
-            "row": idx,
+            "name": df.iloc[idx, :].loc['text_name'],
             "trend": f"Error: {str(e)}",
             "p_value": None,
             "tau": None
@@ -44,4 +43,4 @@ for idx, raw_str in enumerate(df[COLUMN_NAME]):
 
 # === Print results ===
 for r in results:
-    print(f"Row {r['row']}: trend={r['trend']}, p={r['p_value']}, tau={r['tau']}")
+    print(f"{r['name']}: trend={r['trend']}, p={r['p_value']}, tau={r['tau']}\n")
