@@ -4,7 +4,7 @@ import argparse
 from roleplay import roleplay
 from getpass import getpass
 from expositive import expositive, expositive_mayeutic
-from plot import plot_conversation, plot_expositive_panels
+from plot import plot_expositive_panels
 
 def setup_api_key():
     if "OPENAI_API_KEY" not in os.environ:
