@@ -85,22 +85,22 @@ plot_acf_pacf_list <- function(series_list,
 
 # ─── Ejemplos ───────────────────────────────────────────────────────
 # Pantalla (elimina NA por defecto):
-plot_acf_pacf_list(lista, names = names(lista), max_lag = 12)
+# plot_acf_pacf_list(lista, names = names(lista), max_lag = 12)
 
-# Guardar en PDF:
-plot_acf_pacf_list(lista, names = names(lista),
-                   max_lag = 12, file = "acf_pacf_panel.pdf")
+# # Guardar en PDF:
+# plot_acf_pacf_list(lista, names = names(lista),
+#                    max_lag = 12, file = "acf_pacf_panel.pdf")
 
 
 ## ── Ejemplo de uso ───────────────────────────────────────────────
 ##  lista es una list donde cada elemento es un vector de dobles
 ##  names(lista) opcionalmente contiene los nombres de cada serie
 
-plot_acf_pacf_list(
-  series_list = lista,
-  names       = names(lista),    # o NULL
-  max_lag     = 12               # o deja que lo calcule
-)
+# plot_acf_pacf_list(
+#   series_list = lista,
+#   names       = names(lista),    # o NULL
+#   max_lag     = 12               # o deja que lo calcule
+# )
 
 for (i in seq_along(lista)) {
   serie <- lista[[i]]
