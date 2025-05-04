@@ -1,89 +1,74 @@
+import math
+import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
-import math
 
-def plot_expositive_panels(results, n_per_row: int = 2, figsize=(8, 3)):
+def plot_expositive_panels(results, cols: int = 2,
+                           base_figsize=(5, 3),
+                           title_font=11,
+                           label_font=9,
+                           y_padding=0.5):
     """
-    Dibuja un gráfico independiente por texto expositivo,
-    organizados en filas con `n_per_row` columnas.
+    Traza un panel ordenado de curvas Lande-intra (una por texto).
 
-    Parameters
+    Parámetros
     ----------
-    results : List[dict]
-        Cada dict debe contener las claves:
-        - 'lande_intra'   : lista con los valores índice de Lande
-        - 'n_paragraphs'  : número total de pasos
-        - 'text_name'     : nombre del texto
-    n_per_row : int, optional
-        Número de gráficos por fila (default 2).
-    figsize : tuple, optional
-        Tamaño (width, height) de cada subgráfico en pulgadas.
+    results : list[dict]
+        Cada dict con claves:
+          • 'lande_intra'   : lista[float]
+          • 'n_paragraphs'  : int
+          • 'text_name'     : str
+    cols : int
+        Número fijo de columnas (default = 2).
+    base_figsize : tuple
+        Tamaño (ancho, alto) de **cada** subgráfico en pulgadas.
+    y_padding : float
+        Margen extra (arriba/abajo) aplicado al rango global Y.
     """
-    n_texts   = len(results)
-    n_rows    = math.ceil(n_texts / n_per_row)
 
-    # Figura global
-    fig, axes = plt.subplots(
-        n_rows, n_per_row,
-        figsize=(figsize[0] * n_per_row, figsize[1] * n_rows),
-        sharey=False, sharex=False
-    )
-    axes = axes.flatten()  # facilita el indexado lineal
+    n_texts = len(results)
+    rows    = math.ceil(n_texts / cols)
 
-    for ax_idx, (entry, ax) in enumerate(zip(results, axes)):
-        lande = entry['lande_intra']
-        name  = entry['text_name']
-        xs    = list(range(1, entry['n_paragraphs'] + 1))
+    # — rango global Y para uniformidad —
+    all_vals = np.concatenate([r['lande_intra'] for r in results])
+    y_min, y_max = all_vals.min() - y_padding, all_vals.max() + y_padding
 
-        ax.plot(xs, lande, marker='o')
-        ax.set_title(name, fontsize=10)
-        ax.set_xlabel("Number of Paragraphs")
-        ax.set_ylabel("Lande Diversity Index")
+    # — figura —
+    fig_w  = base_figsize[0] * cols
+    fig_h  = base_figsize[1] * rows
+    fig, axes = plt.subplots(rows, cols,
+                             figsize=(fig_w, fig_h),
+                             sharex=False, sharey=False)
+    axes = axes.flatten()
+
+    for idx, (entry, ax) in enumerate(zip(results, axes)):
+        xs   = range(1, entry['n_paragraphs'] + 1)
+        ys   = entry['lande_intra']
+
+        ax.plot(xs, ys, marker='o', linewidth=1.4)
+        ax.set_ylim(y_min, y_max)
+        ax.set_title(entry['text_name'], fontsize=title_font, pad=4)
+
+        # Etiquetas X sólo en la última fila
+        if idx // cols == rows - 1:
+            ax.set_xlabel("Number of Paragraphs", fontsize=label_font)
+        else:
+            ax.set_xticklabels([])
+
+        # Etiquetas Y sólo en la primera columna
+        if idx % cols == 0:
+            ax.set_ylabel("Lande Diversity Index", fontsize=label_font)
+        else:
+            ax.set_yticklabels([])
+
         ax.xaxis.set_major_locator(MaxNLocator(integer=True))
-        ax.grid(True)
+        ax.grid(alpha=0.3, linestyle="--", linewidth=0.5)
 
-    # Oculta ejes sobrantes si n_texts no es múltiplo de n_per_row
+    # Ejes vacíos (si sobran)
     for ax in axes[n_texts:]:
         ax.axis('off')
 
     fig.suptitle("Embedding Diversity Collapse with Growing Text Input",
-                 fontsize=14, y=1.02)
-    fig.tight_layout()
-    plt.show()
-
-def plot_conversation(resultados):
-    ks = sorted(set(entry['k'] for entry in resultados))
-    rounds_set = sorted(set(entry['conversation_rounds'] for entry in resultados))
-
-    # Crear un diccionario para acceder rápidamente a los datos por (k, rounds)
-    data_dict = {(d['k'], d['conversation_rounds']): d for d in resultados}
-
-    # Crear la cuadrícula de subplots
-    fig, axs = plt.subplots(len(ks), len(rounds_set), figsize=(4 * len(rounds_set), 3 * len(ks)), squeeze=False)
-
-    # Rellenar los subplots
-    for i, k in enumerate(ks):
-        for j, rounds in enumerate(rounds_set):
-            ax = axs[i][j]
-            entry = data_dict.get((k, rounds), None)
-            if entry:
-                x = list(range(1, rounds + 1))
-                # conv = [t.item() for t in entry['lande_conversation']]
-                intra = [t for t in entry['lande_intra']]
-                base = [t.item() for t in entry['lande_baseline']]
-                # ax.plot(x, conv, marker='o', label='Conversation')
-                ax.plot(x, intra, marker='o', label='Intra')
-                ax.plot(x, base, marker='s', label='Baseline')
-                ax.set_title(f'k={k}, rounds={rounds}')
-            else:
-                ax.set_visible(False)  # Ocultar subplot si no hay datos
-            ax.set(xlabel='Ronda', ylabel='Lande')
-    for ax in axs.flat:
-        ax.label_outer()
-
-    # Añadir leyenda a uno de los subplots
-    handles, labels = axs[0][0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc='upper center', ncol=2)
-
-    plt.tight_layout(rect=[0, 0, 1, 0.97])
+                 fontsize=14, y=0.995)
+    fig.tight_layout(rect=[0, 0, 1, 0.97])
     plt.show()
