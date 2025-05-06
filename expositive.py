@@ -6,9 +6,9 @@ from embRun import Run, update_join_next_chunk, run_conversation
 
 def expositive():
 	result = []
-	files = os.listdir("data/texts")
+	files = os.listdir("data/conversations")
 	for file in files:
-		chunks = utils.separar_en_parrafos("data/texts/" + file)
+		chunks = utils.separar_en_parrafos("data/conversations/" + file)
 		if len(chunks) > 7:
 			runner_expositive = Run(update_join_next_chunk, None, None, len(chunks))
 			lande_expositive, i = runner_expositive.run(None, chunks, 'intra')

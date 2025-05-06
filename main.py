@@ -22,21 +22,21 @@ def main():
     args = parse_arguments()
     print(args.task)
     
-    if (args.task == 'conversation'):
-        resultado = roleplay()
-        print(resultado)
-        plot_conversation(resultado)
+    # if (args.task == 'conversation'):
+    #     resultado = roleplay()
+    #     print(resultado)
+    #     plot_conversation(resultado)
 
-    elif (args.task == 'expositive'):
+    if (args.task == 'expositive'):
         resultado = expositive()
         resultado_df = pandas.DataFrame(resultado)
         print(resultado_df)
         plot_expositive_panels(resultado)
         resultado_df.to_csv('data/tendencias_expositivo', sep=',')
 
-    elif (args.task == 'expositive_mayeutic'):
-        resultado = expositive_mayeutic()
-        plot_conversation(resultado)
+    # elif (args.task == 'expositive_mayeutic'):
+    #     resultado = expositive_mayeutic()
+    #     plot_conversation(resultado)
 
 if __name__ == "__main__":
     main()

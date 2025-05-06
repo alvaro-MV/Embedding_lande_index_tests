@@ -22,7 +22,7 @@ def lande_index(label, el):
 
 def lande_intra_index(embedding):
     embedding = np.abs(embedding)/np.sum(np.abs(embedding)) /0.2
-    D = np.sum(embedding ** 2)  # Índice Simpson
+    D = np.sum(embedding ** 2) 
     N = len(embedding)
     lande_index = (N / (N - 1)) * (1 - D)
     return lande_index
